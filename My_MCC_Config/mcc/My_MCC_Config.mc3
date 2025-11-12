@@ -293,7 +293,7 @@
       </entry>
       <entry>
          <file>mcc_generated_files/uart/src/usart0.c</file>
-         <hash/>
+         <hash>139dec6ba7d54268875409daa74555b186ff300bd2d368c2d657e787808e2fe2</hash>
       </entry>
       <entry>
          <file>mcc_generated_files/uart/uart_drv_interface.h</file>

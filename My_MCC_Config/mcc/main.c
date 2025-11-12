@@ -47,6 +47,8 @@ int main(void)
 
     while(1)
     {
+        printf("\r\n Hello World :) \r\n");
+        
         //DO NOTHING
     }    
 }

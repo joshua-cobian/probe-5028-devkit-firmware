@@ -26,6 +26,7 @@ set(probe_5028_devkit_firmware_default_default_XC8_FILE_TYPE_compile
     "${CMAKE_CURRENT_SOURCE_DIR}/../../../My_MCC_Config/mcc/mcc_generated_files/system/src/pins.c"
     "${CMAKE_CURRENT_SOURCE_DIR}/../../../My_MCC_Config/mcc/mcc_generated_files/system/src/system.c"
     "${CMAKE_CURRENT_SOURCE_DIR}/../../../My_MCC_Config/mcc/mcc_generated_files/timer/src/tca0.c"
+    "${CMAKE_CURRENT_SOURCE_DIR}/../../../My_MCC_Config/mcc/mcc_generated_files/uart/src/usart0.c"
     "${CMAKE_CURRENT_SOURCE_DIR}/../../../My_MCC_Config/mcc/mcc_generated_files/vref/src/vref.c")
 set_source_files_properties(${probe_5028_devkit_firmware_default_default_XC8_FILE_TYPE_compile} PROPERTIES LANGUAGE C)
 set(probe_5028_devkit_firmware_default_default_XC8_FILE_TYPE_link)
