@@ -1,0 +1,14 @@
+# ninja log v7
+1	4	1762966280717441276	clean	8257e190a35ec1c6
+3	159	1762966280740439671	CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_assemblePreprocess.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/system/src/protected_io.S.o	80f7a81f94b2f351
+3	160	1762966280741757296	CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/main.c.o	f4fae9385bd6ca92
+8	173	1762966280746968063	CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/system/src/clock.c.o	6bb3fe13e52e2e42
+7	197	1762966280744477767	CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/dac/src/dac0.c.o	8bc3e39f264df4f6
+8	215	1762966280745439322	CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/nvm/src/nvm.c.o	19b69e04d4ca498f
+5	235	1762966280744111704	CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/adc/src/adc0.c.o	f78ed81f77623fc0
+159	346	1762966280898227628	CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/system/src/config_bits.c.o	8ade432a0fbc34df
+160	348	1762966280898932182	CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/system/src/interrupt.c.o	596ad673e1fd4211
+173	389	1762966280911092650	CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/system/src/pins.c.o	f0c32249366d443
+197	398	1762966280934426136	CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/system/src/system.c.o	f308f8a2e22d42a5
+235	431	1762966280973599443	CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/vref/src/vref.c.o	833a45623c47f83f
+215	432	1762966280952424880	CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/timer/src/tca0.c.o	4f788a532ed19707

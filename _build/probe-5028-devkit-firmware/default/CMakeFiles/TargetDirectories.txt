@@ -1,3 +1,4 @@
+/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/_build/probe-5028-devkit-firmware/default/CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_assemblePreprocess.dir
 /home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/_build/probe-5028-devkit-firmware/default/CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir
 /home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/_build/probe-5028-devkit-firmware/default/CMakeFiles/probe_5028_devkit_firmware_default_image_M4BM5_Pw.dir
 /home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/_build/probe-5028-devkit-firmware/default/CMakeFiles/edit_cache.dir

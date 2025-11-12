@@ -12,6 +12,16 @@
 # =============================================================================
 
 #############################################
+# Rule for compiling ASM files.
+
+rule ASM_COMPILER__probe_5028_devkit_firmware_default_default_XC8_assemblePreprocess_unscanned_
+  depfile = $DEP_FILE
+  deps = gcc
+  command = ${LAUNCHER}${CODE_CHECK}/opt/microchip/xc8/v3.10/bin/xc8-cc $DEFINES $INCLUDES $FLAGS -MD -MF $DEP_FILE -MT $out -o $out -c $in
+  description = Building ASM object $out
+
+
+#############################################
 # Rule for compiling C files.
 
 rule C_COMPILER__probe_5028_devkit_firmware_default_default_XC8_compile_unscanned_
