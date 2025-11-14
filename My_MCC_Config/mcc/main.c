@@ -32,22 +32,48 @@
     EXCEED AMOUNT OF FEES, IF ANY, YOU PAID DIRECTLY TO MICROCHIP FOR 
     THIS SOFTWARE.
 */
+#include "mcc_generated_files/adc/adc0.h"
+#include "mcc_generated_files/adc/adc_types.h"
+#include "mcc_generated_files/system/pins.h"
 #include "mcc_generated_files/system/system.h"
+#include "mcc_generated_files/timer/tca0.h"
 
 /*
     Main application
 */
 
+
+
+
+
+//Interrupt Handler for result ready...
+static void myADC0_ConversionDoneCallback(void)
+{
+    uint16_t result = ADC0_ConversionResultGet();
+    float voltage = 3.3 * (result / 4095.0f);
+    printf("Result is %d, and Voltage is %f\n\r", result, voltage);
+}
+
+void myTCA0_OVFCallback(void)
+{
+    ADC0_ConversionStart();
+    IO_PF5_Toggle();
+}
+
 int main(void)
 {
     SYSTEM_Initialize();
-
+    TCA0_OverflowCallbackRegister(myTCA0_OVFCallback);
+    ADC0_ConversionDoneCallbackRegister(myADC0_ConversionDoneCallback);
+    ADC0_Enable();
+    TCA0_Start();
+    sei();
+    printf("\r\nProgram Starting \r\n");
     
-    printf("\r\n Hello World :) \r\n");
-
+    
     while(1)
     {
-        printf("\r\n Hello World :) \r\n");
+        //printf("Running...\n\r");
         
         //DO NOTHING
     }    

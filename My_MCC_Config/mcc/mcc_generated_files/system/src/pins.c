@@ -39,6 +39,7 @@ static void (*IO_PD4_InterruptHandler)(void);
 static void (*IO_PA7_InterruptHandler)(void);
 static void (*IO_PD6_InterruptHandler)(void);
 static void (*IO_PF4_InterruptHandler)(void);
+static void (*IO_PF6_InterruptHandler)(void);
 static void (*IO_PF5_InterruptHandler)(void);
 
 void PIN_MANAGER_Initialize()
@@ -48,7 +49,7 @@ void PIN_MANAGER_Initialize()
     PORTA.OUT = 0x0;
     PORTC.OUT = 0x0;
     PORTD.OUT = 0x10;
-    PORTF.OUT = 0x20;
+    PORTF.OUT = 0x40;
 
   /* DIR Registers Initialization */
     PORTA.DIR = 0x80;
@@ -87,7 +88,7 @@ void PIN_MANAGER_Initialize()
     PORTF.PIN3CTRL = 0x0;
     PORTF.PIN4CTRL = 0x0;
     PORTF.PIN5CTRL = 0x0;
-    PORTF.PIN6CTRL = 0x0;
+    PORTF.PIN6CTRL = 0x8;
     PORTF.PIN7CTRL = 0x0;
 
   /* PORTMUX Initialization */
@@ -106,6 +107,7 @@ void PIN_MANAGER_Initialize()
     IO_PA7_SetInterruptHandler(IO_PA7_DefaultInterruptHandler);
     IO_PD6_SetInterruptHandler(IO_PD6_DefaultInterruptHandler);
     IO_PF4_SetInterruptHandler(IO_PF4_DefaultInterruptHandler);
+    IO_PF6_SetInterruptHandler(IO_PF6_DefaultInterruptHandler);
     IO_PF5_SetInterruptHandler(IO_PF5_DefaultInterruptHandler);
 }
 
@@ -175,6 +177,19 @@ void IO_PF4_DefaultInterruptHandler(void)
     // or set custom function using IO_PF4_SetInterruptHandler()
 }
 /**
+  Allows selecting an interrupt handler for IO_PF6 at application runtime
+*/
+void IO_PF6_SetInterruptHandler(void (* interruptHandler)(void)) 
+{
+    IO_PF6_InterruptHandler = interruptHandler;
+}
+
+void IO_PF6_DefaultInterruptHandler(void)
+{
+    // add your IO_PF6 interrupt custom code
+    // or set custom function using IO_PF6_SetInterruptHandler()
+}
+/**
   Allows selecting an interrupt handler for IO_PF5 at application runtime
 */
 void IO_PF5_SetInterruptHandler(void (* interruptHandler)(void)) 
@@ -229,6 +244,10 @@ ISR(PORTF_PORT_vect)
     if(VPORTF.INTFLAGS & PORT_INT4_bm)
     {
        IO_PF4_InterruptHandler(); 
+    }
+    if(VPORTF.INTFLAGS & PORT_INT6_bm)
+    {
+       IO_PF6_InterruptHandler(); 
     }
     if(VPORTF.INTFLAGS & PORT_INT5_bm)
     {

@@ -65,7 +65,7 @@ void ADC0_Initialize(void)
     ADC0.DBGCTRL = (0 << ADC_DBGRUN_bp);              /* DBGRUN (disabled) */
     ADC0.WINHT = 0x0;                               /* WINHT (0x0) */
     ADC0.WINLT = 0x0;                               /* WINLT (0x0) */
-    ADC0.INTCTRL = (0 << ADC_RESRDY_bp)               /* RESRDY (disabled) */
+    ADC0.INTCTRL = (1 << ADC_RESRDY_bp)               /* RESRDY (enabled) */
 				|(0 << ADC_WCMP_bp);                /* WCMP (disabled) */
 
     ADC0.CTRLA = (1 << ADC_ENABLE_bp)               /* ENABLE (enabled) */
