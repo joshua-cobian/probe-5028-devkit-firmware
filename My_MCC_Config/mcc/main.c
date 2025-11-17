@@ -53,8 +53,8 @@
 struct sensor_reading_t{
     adc_result_t counts;
     int16_t voltage;
-    bool update;
-    bool valid;
+    bool update_adc;
+    bool update_dac;
 };
 
 
@@ -65,7 +65,7 @@ static void myADC0_ConversionDoneCallback(void)
 {
     uint8_t channel = ADC0.MUXPOS - 0x14; //0x14 is current selected port number (AIN20)
     readings[channel].counts = ADC0_ConversionResultGet();
-    readings[channel].update = true;
+    readings[channel].update_adc = true;
 }
 
 void myTCA0_OVFCallback(void)
@@ -89,7 +89,7 @@ void intCountsToVoltage(adc_result_t counts, uint8_t currReading)
     int32_t scaled_voltage = VDD * counts_fraction;
     int32_t Voltage = scaled_voltage / (SCALING_FACTOR);    //printf("%d:%ld:%ld:%ld\n\r", readings[i].counts, scaled_counts, counts_factor, scaled_voltage);
     readings[currReading].voltage = (int16_t) Voltage;
-    readings[currReading].valid = true;
+    readings[currReading].update_dac = true;
     //printf("%ld\n\r", readings[currReading].voltage);
 }
 
@@ -118,8 +118,8 @@ int main(void)
     {
         readings[i].counts = 0;
         readings[i].voltage = 0;
-        readings[i].update = false;
-        readings[i].valid = false;
+        readings[i].update_adc = false;
+        readings[i].update_dac = false;
     }
     printf("\r\nProgram Starting \r\n");
     
@@ -133,9 +133,9 @@ int main(void)
         //printf("Running...\n\r");
         for(int i = 0; i < NUM_READINGS; i++)
         {
-            if(readings[i].update)
+            if(readings[i].update_adc)
             {
-                readings[i].update = false;
+                readings[i].update_adc = false;
                 curr_counts = readings[i].counts;
                 intCountsToVoltage(curr_counts, i);
                 temp = readings[i].voltage;
@@ -146,10 +146,12 @@ int main(void)
                 }
                 printf("Result is %d, and Voltage is %ld.%ld%ld%ld\n\r", readings[i].counts, voltage_broken[0], voltage_broken[1], voltage_broken[2], voltage_broken[3]); 
             }
-            if(readings[i].valid)
+            if(readings[i].update_dac)
             {
+                readings[i].update_dac = false;
                 curr_voltage = readings[i].voltage;
                 dac_counts = intVoltageToCounts(curr_voltage);
+                printf("DAC_counts: %d\n\r", dac_counts);
                 DAC0_SetOutput(dac_counts);
             }
         }
