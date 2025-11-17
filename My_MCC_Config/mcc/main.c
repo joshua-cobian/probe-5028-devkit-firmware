@@ -34,6 +34,7 @@
 */
 #include "mcc_generated_files/adc/adc0.h"
 #include "mcc_generated_files/adc/adc_types.h"
+#include "mcc_generated_files/dac/dac0.h"
 #include "mcc_generated_files/system/pins.h"
 #include "mcc_generated_files/system/system.h"
 #include "mcc_generated_files/timer/tca0.h"
@@ -44,14 +45,16 @@
 
 #define SCALING_FACTOR 1000L //If changing scaling factor make sure to change VDD to match
 #define VDD 3300L
-#define RESOLUTION 4095L
+#define DAC_RESOLUTION 1023L
+#define ADC_RESOLUTION 4095L
 #define NUM_READINGS 2
 
 
 struct sensor_reading_t{
     adc_result_t counts;
-    int32_t voltage;
+    int16_t voltage;
     bool update;
+    bool valid;
 };
 
 
@@ -82,13 +85,23 @@ void floatCountsToVoltage(adc_result_t counts)
 void intCountsToVoltage(adc_result_t counts, uint8_t currReading) 
 {
     int32_t scaled_counts = counts * SCALING_FACTOR;
-    int32_t counts_factor = scaled_counts / RESOLUTION;
-    int32_t scaled_voltage = VDD * counts_factor;
-    //printf("%d:%ld:%ld:%ld\n\r", readings[i].counts, scaled_counts, counts_factor, scaled_voltage);
-    readings[currReading].voltage = scaled_voltage / (SCALING_FACTOR);
+    int32_t counts_fraction = scaled_counts / ADC_RESOLUTION;
+    int32_t scaled_voltage = VDD * counts_fraction;
+    int32_t Voltage = scaled_voltage / (SCALING_FACTOR);    //printf("%d:%ld:%ld:%ld\n\r", readings[i].counts, scaled_counts, counts_factor, scaled_voltage);
+    readings[currReading].voltage = (int16_t) Voltage;
+    readings[currReading].valid = true;
     //printf("%ld\n\r", readings[currReading].voltage);
 }
 
+//Converts 16bit voltage to 10-bit counts value for DAC
+dac_resolution_t intVoltageToCounts(int16_t voltage)
+{
+    int32_t scaled_voltage = (int32_t)voltage * SCALING_FACTOR;
+    int32_t voltage_fraction = scaled_voltage / VDD;
+    int32_t Scaled_DAC_Counts = voltage_fraction * DAC_RESOLUTION;
+    dac_resolution_t DAC_Counts = Scaled_DAC_Counts / SCALING_FACTOR;
+    return DAC_Counts;
+}
 
 int main(void)
 {
@@ -99,15 +112,20 @@ int main(void)
     TCA0_Start();
     sei();
 
+
+    DAC0_SetOutput(512);
     for(int i = 0; i < NUM_READINGS; i++)
     {
         readings[i].counts = 0;
         readings[i].voltage = 0;
         readings[i].update = false;
+        readings[i].valid = false;
     }
     printf("\r\nProgram Starting \r\n");
     
-    int32_t curr_counts = 0;
+    adc_result_t curr_counts = 0;
+    int16_t curr_voltage = 0;
+    dac_resolution_t dac_counts = 0;
     int32_t temp = 0;
     int32_t voltage_broken[4] = {0,0,0,0};
     while(1)
@@ -128,7 +146,12 @@ int main(void)
                 }
                 printf("Result is %d, and Voltage is %ld.%ld%ld%ld\n\r", readings[i].counts, voltage_broken[0], voltage_broken[1], voltage_broken[2], voltage_broken[3]); 
             }
-            
+            if(readings[i].valid)
+            {
+                curr_voltage = readings[i].voltage;
+                dac_counts = intVoltageToCounts(curr_voltage);
+                DAC0_SetOutput(dac_counts);
+            }
         }
             
         //DO NOTHING

@@ -49,7 +49,7 @@ void PIN_MANAGER_Initialize()
     PORTA.OUT = 0x0;
     PORTC.OUT = 0x0;
     PORTD.OUT = 0x10;
-    PORTF.OUT = 0x40;
+    PORTF.OUT = 0x60;
 
   /* DIR Registers Initialization */
     PORTA.DIR = 0x80;
