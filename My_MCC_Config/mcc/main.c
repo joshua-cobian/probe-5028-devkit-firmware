@@ -42,7 +42,7 @@
     Main application
 */
 
-#define SCALING_FACTOR 1000L
+#define SCALING_FACTOR 1000L //If changing scaling factor make sure to change VDD to match
 #define VDD 3300L
 #define RESOLUTION 4095L
 #define NUM_READINGS 2
@@ -60,7 +60,7 @@ volatile struct sensor_reading_t readings[NUM_READINGS];
 //Interrupt Handler for result ready...
 static void myADC0_ConversionDoneCallback(void)
 {
-    uint8_t channel = ADC0.MUXPOS - 0x14;
+    uint8_t channel = ADC0.MUXPOS - 0x14; //0x14 is current selected port number (AIN20)
     readings[channel].counts = ADC0_ConversionResultGet();
     readings[channel].update = true;
 }
@@ -72,16 +72,21 @@ void myTCA0_OVFCallback(void)
 }
 
 
-void floatMath(int16_t counts) 
+void floatCountsToVoltage(adc_result_t counts) 
 {
-    //int32_t voltage 
-    //printf("Result is %d, and Voltage is %d", )
+    int32_t voltage = 3.3 * (counts / 4095.0f);
+    printf("Result is %d, and Voltage is %f", counts, voltage);
 }
 
 
-void intMath() 
+void intCountsToVoltage(adc_result_t counts, uint8_t currReading) 
 {
-
+    int32_t scaled_counts = counts * SCALING_FACTOR;
+    int32_t counts_factor = scaled_counts / RESOLUTION;
+    int32_t scaled_voltage = VDD * counts_factor;
+    //printf("%d:%ld:%ld:%ld\n\r", readings[i].counts, scaled_counts, counts_factor, scaled_voltage);
+    readings[currReading].voltage = scaled_voltage / (SCALING_FACTOR);
+    //printf("%ld\n\r", readings[currReading].voltage);
 }
 
 
@@ -103,9 +108,6 @@ int main(void)
     printf("\r\nProgram Starting \r\n");
     
     int32_t curr_counts = 0;
-    int32_t scaled_counts = 0;
-    int32_t counts_factor = 0;
-    int32_t scaled_voltage = 0; 
     int32_t temp = 0;
     int32_t voltage_broken[4] = {0,0,0,0};
     while(1)
@@ -116,13 +118,8 @@ int main(void)
             if(readings[i].update)
             {
                 readings[i].update = false;
-                curr_counts = (int32_t)readings[i].counts;
-                scaled_counts = curr_counts * SCALING_FACTOR;
-                counts_factor = scaled_counts / RESOLUTION;
-                scaled_voltage = VDD * counts_factor;
-                //printf("%d:%ld:%ld:%ld\n\r", readings[i].counts, scaled_counts, counts_factor, scaled_voltage);
-                readings[i].voltage = scaled_voltage / (SCALING_FACTOR);
-                printf("%ld\n\r", readings[i].voltage);
+                curr_counts = readings[i].counts;
+                intCountsToVoltage(curr_counts, i);
                 temp = readings[i].voltage;
                 for(int j = 0; j < 4; j++) 
                 {
