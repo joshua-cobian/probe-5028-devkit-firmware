@@ -6,6 +6,7 @@
             "id": "conf1",
             "device": "AVR64DD32",
             "imagePath": "./out/probe-5028-devkit-firmware/default.elf",
+            "tool": "PKOB nano",
             "packs": [
                 {
                     "name": "AVR-Dx_DFP",
@@ -14,7 +15,9 @@
                 }
             ],
             "fileSet": "default",
-            "toolchain": "default-XC8"
+            "toolchain": "default-XC8",
+            "preBuildSteps": [],
+            "postBuildSteps": []
         }
     ],
     "propertyGroups": [

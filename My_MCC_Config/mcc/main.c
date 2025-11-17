@@ -42,16 +42,27 @@
     Main application
 */
 
+#define SCALING_FACTOR 1000L
+#define VDD 3300L
+#define RESOLUTION 4095L
+#define NUM_READINGS 2
 
 
+struct sensor_reading_t{
+    adc_result_t counts;
+    int32_t voltage;
+    bool update;
+};
 
+
+volatile struct sensor_reading_t readings[NUM_READINGS];
 
 //Interrupt Handler for result ready...
 static void myADC0_ConversionDoneCallback(void)
 {
-    uint16_t result = ADC0_ConversionResultGet();
-    float voltage = 3.3 * (result / 4095.0f);
-    printf("Result is %d, and Voltage is %f\n\r", result, voltage);
+    uint8_t channel = ADC0.MUXPOS - 0x14;
+    readings[channel].counts = ADC0_ConversionResultGet();
+    readings[channel].update = true;
 }
 
 void myTCA0_OVFCallback(void)
@@ -59,6 +70,20 @@ void myTCA0_OVFCallback(void)
     ADC0_ConversionStart();
     IO_PF5_Toggle();
 }
+
+
+void floatMath(int16_t counts) 
+{
+    //int32_t voltage 
+    //printf("Result is %d, and Voltage is %d", )
+}
+
+
+void intMath() 
+{
+
+}
+
 
 int main(void)
 {
@@ -68,13 +93,47 @@ int main(void)
     ADC0_Enable();
     TCA0_Start();
     sei();
+
+    for(int i = 0; i < NUM_READINGS; i++)
+    {
+        readings[i].counts = 0;
+        readings[i].voltage = 0;
+        readings[i].update = false;
+    }
     printf("\r\nProgram Starting \r\n");
     
-    
+    int32_t curr_counts = 0;
+    int32_t scaled_counts = 0;
+    int32_t counts_factor = 0;
+    int32_t scaled_voltage = 0; 
+    int32_t temp = 0;
+    int32_t voltage_broken[4] = {0,0,0,0};
     while(1)
     {
         //printf("Running...\n\r");
-        
+        for(int i = 0; i < NUM_READINGS; i++)
+        {
+            if(readings[i].update)
+            {
+                readings[i].update = false;
+                curr_counts = (int32_t)readings[i].counts;
+                scaled_counts = curr_counts * SCALING_FACTOR;
+                counts_factor = scaled_counts / RESOLUTION;
+                scaled_voltage = VDD * counts_factor;
+                //printf("%d:%ld:%ld:%ld\n\r", readings[i].counts, scaled_counts, counts_factor, scaled_voltage);
+                readings[i].voltage = scaled_voltage / (SCALING_FACTOR);
+                printf("%ld\n\r", readings[i].voltage);
+                temp = readings[i].voltage;
+                for(int j = 0; j < 4; j++) 
+                {
+                    voltage_broken[3-j] = temp % 10;
+                    temp /= 10;
+                }
+                printf("Result is %d, and Voltage is %ld.%ld%ld%ld\n\r", readings[i].counts, voltage_broken[0], voltage_broken[1], voltage_broken[2], voltage_broken[3]); 
+            }
+            
+        }
+            
         //DO NOTHING
     }    
 }
