@@ -87,7 +87,8 @@ void intCountsToVoltage(adc_result_t counts, uint8_t currReading)
     int32_t scaled_counts = counts * SCALING_FACTOR;
     int32_t counts_fraction = scaled_counts / ADC_RESOLUTION;
     int32_t scaled_voltage = VDD * counts_fraction;
-    int32_t Voltage = scaled_voltage / (SCALING_FACTOR);    //printf("%d:%ld:%ld:%ld\n\r", readings[i].counts, scaled_counts, counts_factor, scaled_voltage);
+    int32_t Voltage = scaled_voltage / (SCALING_FACTOR);    
+    printf("%d:%ld:%ld:%ld\n\r", readings[currReading].counts, scaled_counts, counts_fraction, scaled_voltage);
     readings[currReading].voltage = (int16_t) Voltage;
     readings[currReading].update_dac = true;
     //printf("%ld\n\r", readings[currReading].voltage);
