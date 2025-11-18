@@ -1,7 +1,7 @@
 {
 	"InstallScripts" : 
 	[
-		"/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/_build/probe-5028-devkit-firmware/default/cmake_install.cmake"
+		"C:/Projects/Cooper - 5028/Code/probe-5028-devkit-firmware/_build/probe-5028-devkit-firmware/default/cmake_install.cmake"
 	],
 	"Parallel" : false
 }

@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?> 
 <project>                                  
-  <executable name="/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/out/probe-5028-devkit-firmware/default.elf">                 
+  <executable name="C:\Projects\Cooper - 5028\Code\probe-5028-devkit-firmware\out\probe-5028-devkit-firmware\default.elf">                 
     <memory name="program">              
       <units>bytes</units>                 
       <length>65536</length>                 
-      <used>9860</used>                     
-      <free>55676</free>                     
+      <used>10357</used>                     
+      <free>55179</free>                     
     </memory>                              
     <memory name="data">                 
       <units>bytes</units>                 
       <length>8192</length>                 
-      <used>234</used>                     
-      <free>7958</free>                     
+      <used>331</used>                     
+      <free>7861</free>                     
     </memory>                              
   </executable>                            
 </project>                                 

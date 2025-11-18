@@ -1,8 +1,8 @@
-# Install script for directory: /home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/cmake/probe-5028-devkit-firmware/default
+# Install script for directory: C:/Projects/Cooper - 5028/Code/probe-5028-devkit-firmware/cmake/probe-5028-devkit-firmware/default
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/usr/local")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files/probe_5028_devkit_firmware_default_project")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -34,13 +34,13 @@ endif()
 
 # Set path to fallback-tool for dependency-resolution.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "/usr/bin/objdump")
+  set(CMAKE_OBJDUMP "CMAKE_OBJDUMP-NOTFOUND")
 endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/_build/probe-5028-devkit-firmware/default/install_local_manifest.txt"
+  file(WRITE "C:/Projects/Cooper - 5028/Code/probe-5028-devkit-firmware/_build/probe-5028-devkit-firmware/default/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()
 if(CMAKE_INSTALL_COMPONENT)
@@ -56,6 +56,6 @@ else()
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/_build/probe-5028-devkit-firmware/default/${CMAKE_INSTALL_MANIFEST}"
+  file(WRITE "C:/Projects/Cooper - 5028/Code/probe-5028-devkit-firmware/_build/probe-5028-devkit-firmware/default/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

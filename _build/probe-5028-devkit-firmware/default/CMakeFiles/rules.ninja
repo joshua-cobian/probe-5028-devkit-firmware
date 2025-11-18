@@ -17,7 +17,7 @@
 rule ASM_COMPILER__probe_5028_devkit_firmware_default_default_XC8_assemblePreprocess_unscanned_
   depfile = $DEP_FILE
   deps = gcc
-  command = ${LAUNCHER}${CODE_CHECK}/opt/microchip/xc8/v3.10/bin/xc8-cc $DEFINES $INCLUDES $FLAGS -MD -MF $DEP_FILE -MT $out -o $out -c $in
+  command = ${LAUNCHER}${CODE_CHECK}c:\PROGRA~1\MICROC~1\xc8\v3.10\bin\xc8-cc.exe $DEFINES $INCLUDES $FLAGS -MD -MF $DEP_FILE -MT $out -o $out -c $in
   description = Building ASM object $out
 
 
@@ -27,15 +27,15 @@ rule ASM_COMPILER__probe_5028_devkit_firmware_default_default_XC8_assemblePrepro
 rule C_COMPILER__probe_5028_devkit_firmware_default_default_XC8_compile_unscanned_
   depfile = $DEP_FILE
   deps = gcc
-  command = ${LAUNCHER}${CODE_CHECK}/opt/microchip/xc8/v3.10/bin/xc8-cc $DEFINES $INCLUDES $FLAGS -MD -MF $DEP_FILE -MT $out -o $out -c $in
+  command = ${LAUNCHER}${CODE_CHECK}c:\PROGRA~1\MICROC~1\xc8\v3.10\bin\xc8-cc.exe $DEFINES $INCLUDES $FLAGS -MD -MF $DEP_FILE -MT $out -o $out -c $in
   description = Building C object $out
 
 
 #############################################
 # Rule for linking C executable.
 
-rule C_EXECUTABLE_LINKER__probe_5028_devkit_firmware_default_image_M4BM5_Pw_
-  command = $PRE_LINK && /opt/microchip/xc8/v3.10/bin/xc8-cc $FLAGS $LINK_FLAGS $in -o $TARGET_FILE $LINK_PATH $LINK_LIBRARIES && $POST_BUILD
+rule C_EXECUTABLE_LINKER__probe_5028_devkit_firmware_default_image_8dDw2iiR_
+  command = cmd.exe /C "$PRE_LINK && c:\PROGRA~1\MICROC~1\xc8\v3.10\bin\xc8-cc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT
 
@@ -52,7 +52,7 @@ rule CUSTOM_COMMAND
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = /home/probe-5028/.mplab/app-finder/apps/cmake/v4.1.2/cmake-4.1.2-linux-x86_64/bin/cmake --regenerate-during-build -S/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/cmake/probe-5028-devkit-firmware/default -B/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/_build/probe-5028-devkit-firmware/default
+  command = "C:\Program Files\CMake\bin\cmake.exe" --regenerate-during-build -S"C:\Projects\Cooper - 5028\Code\probe-5028-devkit-firmware\cmake\probe-5028-devkit-firmware\default" -B"C:\Projects\Cooper - 5028\Code\probe-5028-devkit-firmware\_build\probe-5028-devkit-firmware\default"
   description = Re-running CMake...
   generator = 1
 
@@ -61,7 +61,7 @@ rule RERUN_CMAKE
 # Rule for cleaning all built files.
 
 rule CLEAN
-  command = /home/probe-5028/.mplab/app-finder/apps/ninja/v1.13.1/ninja $FILE_ARG -t clean $TARGETS
+  command = C:\Users\E3016198\.mplab\app-finder\apps\ninja\v1.13.1\ninja.exe $FILE_ARG -t clean $TARGETS
   description = Cleaning all built files...
 
 
@@ -69,6 +69,6 @@ rule CLEAN
 # Rule for printing all primary targets available.
 
 rule HELP
-  command = /home/probe-5028/.mplab/app-finder/apps/ninja/v1.13.1/ninja -t targets
+  command = C:\Users\E3016198\.mplab\app-finder\apps\ninja\v1.13.1\ninja.exe -t targets
   description = All primary targets available:
 

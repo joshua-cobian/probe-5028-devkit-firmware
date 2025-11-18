@@ -1,6 +1,6 @@
 # The following functions contains all the flags passed to the different build stages.
 
-set(PACK_REPO_PATH "/home/probe-5028/.mchp_packs" CACHE PATH "Path to the root of a pack repository.")
+set(PACK_REPO_PATH "C:/Users/E3016198/.mchp_packs" CACHE PATH "Path to the root of a pack repository.")
 
 function(probe_5028_devkit_firmware_default_default_XC8_assemble_rule target)
     set(options
@@ -14,6 +14,7 @@ function(probe_5028_devkit_firmware_default_default_XC8_assemble_rule target)
         "-mdfp=${PACK_REPO_PATH}/Microchip/AVR-Dx_DFP/2.7.321/xc8"
         "-Wl,--gc-sections"
         "-O1"
+        "-Og"
         "-ffunction-sections"
         "-fdata-sections"
         "-fshort-enums"
@@ -43,6 +44,7 @@ function(probe_5028_devkit_firmware_default_default_XC8_assemblePreprocess_rule 
         "-mdfp=${PACK_REPO_PATH}/Microchip/AVR-Dx_DFP/2.7.321/xc8"
         "-Wl,--gc-sections"
         "-O1"
+        "-Og"
         "-ffunction-sections"
         "-fdata-sections"
         "-fshort-enums"
@@ -71,6 +73,7 @@ function(probe_5028_devkit_firmware_default_default_XC8_compile_rule target)
         "-mdfp=${PACK_REPO_PATH}/Microchip/AVR-Dx_DFP/2.7.321/xc8"
         "-Wl,--gc-sections"
         "-O1"
+        "-Og"
         "-ffunction-sections"
         "-fdata-sections"
         "-fshort-enums"
@@ -97,6 +100,7 @@ function(probe_5028_devkit_firmware_default_link_rule target)
         "-gdwarf-2"
         "-Wl,--gc-sections"
         "-O1"
+        "-Og"
         "-ffunction-sections"
         "-fdata-sections"
         "-fshort-enums"

@@ -1,7 +1,13 @@
 {
     "mplab.clangd.arguments": [
-        "--compile-commands-dir=${workspaceFolder}/_build/probe-5028-devkit-firmware/default"
+        "--compile-commands-dir=${workspaceFolder}\\_build\\probe-5028-devkit-firmware\\default"
     ],
-    "mplab.clangd.path": "/opt/microchip/xc8/v3.10/bin/xc8-clangd",
-    "cmake.sourceDirectory": "/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/cmake/probe-5028-devkit-firmware/default"
+    "mplab.clangd.path": "c:\\Program Files\\Microchip\\xc8\\v3.10\\bin\\xc8-clangd.exe",
+    "cmake.sourceDirectory": "/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/cmake/probe-5028-devkit-firmware/default",
+    "memory-inspector.debugTypes": [
+        "arm-debugger",
+        "embedded-debug",
+        "gdb",
+        "mplab-core-da"
+    ]
 }

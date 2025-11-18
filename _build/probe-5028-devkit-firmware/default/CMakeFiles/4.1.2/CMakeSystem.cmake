@@ -1,9 +1,9 @@
-set(CMAKE_HOST_SYSTEM "Linux-6.14.0-35-generic")
-set(CMAKE_HOST_SYSTEM_NAME "Linux")
-set(CMAKE_HOST_SYSTEM_VERSION "6.14.0-35-generic")
-set(CMAKE_HOST_SYSTEM_PROCESSOR "x86_64")
+set(CMAKE_HOST_SYSTEM "Windows-10.0.22631")
+set(CMAKE_HOST_SYSTEM_NAME "Windows")
+set(CMAKE_HOST_SYSTEM_VERSION "10.0.22631")
+set(CMAKE_HOST_SYSTEM_PROCESSOR "")
 
-include("/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/cmake/probe-5028-devkit-firmware/default/.generated/toolchain.cmake")
+include("C:/Projects/Cooper - 5028/Code/probe-5028-devkit-firmware/cmake/probe-5028-devkit-firmware/default/.generated/toolchain.cmake")
 
 set(CMAKE_SYSTEM "Generic")
 set(CMAKE_SYSTEM_NAME "Generic")
