@@ -88,7 +88,7 @@ void PIN_MANAGER_Initialize()
     PORTF.PIN3CTRL = 0x0;
     PORTF.PIN4CTRL = 0x0;
     PORTF.PIN5CTRL = 0x0;
-    PORTF.PIN6CTRL = 0x8;
+    PORTF.PIN6CTRL = 0xD;
     PORTF.PIN7CTRL = 0x0;
 
   /* PORTMUX Initialization */
