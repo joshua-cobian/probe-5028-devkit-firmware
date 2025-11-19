@@ -49,6 +49,7 @@ extern "C" {
 #include "../vref/vref.h"
 #include "../system/interrupt.h"
 #include "../system/clock.h"
+#include "../reset/rstctrl.h"
 #include "../adc/adc0.h"
 #include "../timer/tca0.h"
 /**

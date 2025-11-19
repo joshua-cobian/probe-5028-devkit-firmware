@@ -35,6 +35,7 @@
 #include "mcc_generated_files/adc/adc0.h"
 #include "mcc_generated_files/adc/adc_types.h"
 #include "mcc_generated_files/dac/dac0.h"
+#include "mcc_generated_files/nvm/nvm.h"
 #include "mcc_generated_files/system/pins.h"
 #include "mcc_generated_files/system/system.h"
 #include "mcc_generated_files/timer/tca0.h"
@@ -59,6 +60,14 @@ struct sensor_reading_t{
 
 
 volatile struct sensor_reading_t readings[NUM_READINGS];
+static eeprom_data_t lfsr8 = 0xA5; //Not zero
+
+
+
+void my_IO_PF6_SetInterruptHandler(void)
+{
+    RSTCTRL_SoftwareReset();
+}
 
 //Interrupt Handler for result ready...
 static void myADC0_ConversionDoneCallback(void)
@@ -88,7 +97,7 @@ void intCountsToVoltage(adc_result_t counts, uint8_t currReading)
     int32_t counts_fraction = scaled_counts / ADC_RESOLUTION;
     int32_t scaled_voltage = VDD * counts_fraction;
     int32_t Voltage = scaled_voltage / (SCALING_FACTOR);    
-    printf("%d:%ld:%ld:%ld\n\r", readings[currReading].counts, scaled_counts, counts_fraction, scaled_voltage);
+    //printf("%d:%ld:%ld:%ld\n\r", readings[currReading].counts, scaled_counts, counts_fraction, scaled_voltage);
     readings[currReading].voltage = (int16_t) Voltage;
     readings[currReading].update_dac = true;
     //printf("%ld\n\r", readings[currReading].voltage);
@@ -104,17 +113,51 @@ dac_resolution_t intVoltageToCounts(int16_t voltage)
     return DAC_Counts;
 }
 
+eeprom_data_t randData()
+{
+    uint8_t lsb = lfsr8 & 1;
+    lfsr8 >>= 1;
+    if(lsb) 
+    {
+        lfsr8 ^= 0xB8;
+    }
+    
+    return lfsr8;
+}
 int main(void)
 {
     SYSTEM_Initialize();
-    TCA0_OverflowCallbackRegister(myTCA0_OVFCallback);
-    ADC0_ConversionDoneCallbackRegister(myADC0_ConversionDoneCallback);
-    ADC0_Enable();
-    TCA0_Start();
-    sei();
+    IO_PF6_SetInterruptHandler(my_IO_PF6_SetInterruptHandler);
+    
+    
+    eeprom_data_t write_data[4] = {0xDE, 0xAD, 0xBE, 0xEF};
+    eeprom_address_t write_addr = 0;
+    for(int i = 0; i < 4; i++)
+    {
+        printf("Writing %x to %u\n\r", write_data[i], write_addr);
+        EEPROM_Write(write_addr, write_data[i]);
+        while(EEPROM_IsBusy());
+        write_addr++;
+    }
+    
+    //eeprom_address_t read_addr = 0;
+    //eeprom_data_t read_data = EEPROM_Read(read_addr);
+    //printf("%x\n\r", read_data);
+    //EEPROM Writing testing
+    while(EEPROM_IsBusy());
 
+    eeprom_address_t read_addr = 0; 
+    for(uint8_t i = 0; i < 4; i++)
+    {
+        eeprom_data_t read_data = EEPROM_Read(read_addr);
+        printf("EEPROM DATA at addr %u: %x\n\r", read_addr, read_data); 
+        read_addr++;
+    }
 
-    DAC0_SetOutput(512);
+    
+    
+    
+
     for(int i = 0; i < NUM_READINGS; i++)
     {
         readings[i].counts = 0;
@@ -122,13 +165,17 @@ int main(void)
         readings[i].update_adc = false;
         readings[i].update_dac = false;
     }
-    printf("\r\nProgram Starting \r\n");
-    
+    printf("Program Starting \r\n");
+    TCA0_OverflowCallbackRegister(myTCA0_OVFCallback);
+    ADC0_ConversionDoneCallbackRegister(myADC0_ConversionDoneCallback);
+
+    ADC0_Enable();
+    TCA0_Start();
     adc_result_t curr_counts = 0;
     int16_t curr_voltage = 0;
     dac_resolution_t dac_counts = 0;
     int32_t temp = 0;
-    int32_t voltage_broken[4] = {0,0,0,0};
+    int8_t voltage_broken[4] = {0,0,0,0};
     while(1)
     {
         //printf("Running...\n\r");
@@ -136,6 +183,7 @@ int main(void)
         {
             if(readings[i].update_adc)
             {
+                //ADC Voltage Conversion 
                 readings[i].update_adc = false;
                 curr_counts = readings[i].counts;
                 intCountsToVoltage(curr_counts, i);
@@ -145,10 +193,11 @@ int main(void)
                     voltage_broken[3-j] = temp % 10;
                     temp /= 10;
                 }
-                printf("Result is %d, and Voltage is %ld.%ld%ld%ld\n\r", readings[i].counts, voltage_broken[0], voltage_broken[1], voltage_broken[2], voltage_broken[3]); 
+                printf("Result is %d, and Voltage is %d.%d%d%d\n\r", readings[i].counts, voltage_broken[0], voltage_broken[1], voltage_broken[2], voltage_broken[3]); 
             }
             if(readings[i].update_dac)
             {
+                //DAC Count Conversion
                 readings[i].update_dac = false;
                 curr_voltage = readings[i].voltage;
                 dac_counts = intVoltageToCounts(curr_voltage);
@@ -156,7 +205,6 @@ int main(void)
                 DAC0_SetOutput(dac_counts);
             }
         }
-            
         //DO NOTHING
     }    
 }
