@@ -44,22 +44,24 @@ Archive member included to satisfy reference by file (symbol)
                               /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/libm.a(mulsf3.o) (__mulsf3x)
 /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/libc.a(exit.o)
                               /home/probe-5028/.mchp_packs/Microchip/AVR-Dx_DFP/2.7.321/xc8/avr/lib/avrxmega2/crtavr64dd32.o (exit)
+/opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/libc.a(__sio_printf_dfosux.o)
+                              CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/main.c.o (_printf_cdfFopsuxX)
 /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/libc.a(__sio_printf_dfoux.o)
                               CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/main.c.o (_printf_cdfFopuxX)
 /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/libc.a(__fmt_d.o)
-                              /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/libc.a(__sio_printf_dfoux.o) (__fmt_d_needed)
+                              /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/libc.a(__sio_printf_dfosux.o) (__fmt_d_needed)
 /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/libc.a(__fmt_fp.o)
-                              /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/libc.a(__sio_printf_dfoux.o) (__fmt_f_needed)
+                              /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/libc.a(__sio_printf_dfosux.o) (__fmt_f_needed)
 /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/libc.a(__fmt_o.o)
-                              /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/libc.a(__sio_printf_dfoux.o) (__fmt_o_needed)
+                              /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/libc.a(__sio_printf_dfosux.o) (__fmt_o_needed)
 /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/libc.a(__fmt_s.o)
-                              /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/libc.a(__sio_printf_dfoux.o) (__fmt_s_needed)
+                              /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/libc.a(__sio_printf_dfosux.o) (__fmt_s_needed)
 /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/libc.a(__fmt_u.o)
                               /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/libc.a(__fmt_d.o) (__cvt_u)
 /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/libc.a(__fmt_x.o)
-                              /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/libc.a(__sio_printf_dfoux.o) (__fmt_x_needed)
+                              /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/libc.a(__sio_printf_dfosux.o) (__fmt_x_needed)
 /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/libc.a(__pop_int.o)
-                              /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/libc.a(__sio_printf_dfoux.o) (__pop_int_needed)
+                              /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/libc.a(__sio_printf_dfosux.o) (__pop_int_needed)
 /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/libc.a(__printf_core.o)
                               /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/libc.a(__fmt_d.o) (__pad)
 /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/libc.a(fputc.o)
@@ -69,7 +71,7 @@ Archive member included to satisfy reference by file (symbol)
 /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/libc.a(stdout.o)
                               CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/uart/src/usart0.c.o (_stdout)
 /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/libc.a(__pop_float.o)
-                              /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/libc.a(__sio_printf_dfoux.o) (__pop_float_needed)
+                              /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/libc.a(__sio_printf_dfosux.o) (__pop_float_needed)
 /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/libc.a(memset.o)
                               /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/libc.a(__fmt_fp.o) (memset)
 /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/libc.a(strcpy.o)
@@ -85,7 +87,7 @@ Archive member included to satisfy reference by file (symbol)
 /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/libc.a(_Exit.o)
                               /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/libc.a(exit.o) (_Exit)
 /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/libc.a(__int_vfprintf.o)
-                              /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/libc.a(__sio_printf_dfoux.o) (__vfprintf)
+                              /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/libc.a(__sio_printf_dfosux.o) (__vfprintf)
 /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/libc.a(fputs.o)
                               /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/libc.a(puts.o) (fputs)
 /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/avrxmega2/libgcc.a(_divmodhi4.o)
@@ -93,9 +95,9 @@ Archive member included to satisfy reference by file (symbol)
 /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/avrxmega2/libgcc.a(_exit.o)
                               /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/libc.a(_Exit.o) (_exit)
 /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/avrxmega2/libgcc.a(_prologue.o)
-                              /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/libc.a(__sio_printf_dfoux.o) (__prologue_saves__)
+                              /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/libc.a(__sio_printf_dfosux.o) (__prologue_saves__)
 /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/avrxmega2/libgcc.a(_epilogue.o)
-                              /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/libc.a(__sio_printf_dfoux.o) (__epilogue_restores__)
+                              /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/libc.a(__sio_printf_dfosux.o) (__epilogue_restores__)
 /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/avrxmega2/libgcc.a(_udivmodhi4.o)
                               /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/avrxmega2/libgcc.a(_divmodhi4.o) (__udivmodhi4)
 /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/libm.a(addsf3.o)
@@ -130,6 +132,10 @@ Discarded input sections
  .bss           0x0000000000000000        0x0 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/main.c.o
  .text.floatCountsToVoltage
                 0x0000000000000000       0x56 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/main.c.o
+ .text.EEPROM_Erase
+                0x0000000000000000       0x1a CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/main.c.o
+ .text.EEPROM_Write_Bytes
+                0x0000000000000000       0x78 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/main.c.o
  .text.randData
                 0x0000000000000000       0x20 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/main.c.o
  .data.lfsr8    0x0000000000000000        0x1 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/main.c.o
@@ -216,6 +222,10 @@ Discarded input sections
                 0x0000000000000000        0xa CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/nvm/src/nvm.c.o
  .text.FLASH_PageOffsetGet
                 0x0000000000000000        0x6 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/nvm/src/nvm.c.o
+ .text.EEPROM_Write
+                0x0000000000000000       0x2c CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/nvm/src/nvm.c.o
+ .text.EEPROM_IsBusy
+                0x0000000000000000        0xa CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/nvm/src/nvm.c.o
  .text          0x0000000000000000        0x0 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/reset/src/rstctrl.c.o
  .data          0x0000000000000000        0x0 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/reset/src/rstctrl.c.o
  .bss           0x0000000000000000        0x0 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/reset/src/rstctrl.c.o
@@ -522,13 +532,27 @@ Discarded input sections
  .bss           0x0000000000000000        0x0 /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/libc.a(exit.o)
  .stack.descriptors
                 0x0000000000000000       0x73 /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/libc.a(exit.o)
+ .text          0x0000000000000000        0x0 /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/libc.a(__sio_printf_dfosux.o)
+ .data          0x0000000000000000        0x0 /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/libc.a(__sio_printf_dfosux.o)
+ .bss           0x0000000000000000        0x0 /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/libc.a(__sio_printf_dfosux.o)
+ .stack.descriptors
+                0x0000000000000000       0x3c /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/libc.a(__sio_printf_dfosux.o)
+ .text.__sio_printf_dfosux
+                0x0000000000000000       0x22 /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/libc.a(__sio_printf_dfosux.o)
  .text          0x0000000000000000        0x0 /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/libc.a(__sio_printf_dfoux.o)
  .data          0x0000000000000000        0x0 /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/libc.a(__sio_printf_dfoux.o)
  .bss           0x0000000000000000        0x0 /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/libc.a(__sio_printf_dfoux.o)
  .stack.descriptors
                 0x0000000000000000       0x3b /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/libc.a(__sio_printf_dfoux.o)
+ .text.__wrap_printf
+                0x0000000000000000       0x30 /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/libc.a(__sio_printf_dfoux.o)
  .text.__sio_printf_dfoux
                 0x0000000000000000       0x22 /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/libc.a(__sio_printf_dfoux.o)
+ .comment       0x0000000000000000       0x2d /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/libc.a(__sio_printf_dfoux.o)
+ .stack.descriptors.hdr
+                0x0000000000000000        0xe /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/libc.a(__sio_printf_dfoux.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/libc.a(__sio_printf_dfoux.o)
  .text          0x0000000000000000        0x0 /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/libc.a(__fmt_d.o)
  .data          0x0000000000000000        0x0 /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/libc.a(__fmt_d.o)
  .bss           0x0000000000000000        0x0 /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/libc.a(__fmt_d.o)
@@ -1055,7 +1079,7 @@ END GROUP
  .comment       0x000000000000002f       0x30 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/vref/src/vref.c.o
  .comment       0x000000000000002f       0x2c /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/libc.a(exit.o)
                                          0x2d (size before relaxing)
- .comment       0x000000000000005b       0x2d /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/libc.a(__sio_printf_dfoux.o)
+ .comment       0x000000000000005b       0x2d /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/libc.a(__sio_printf_dfosux.o)
  .comment       0x000000000000005b       0x2d /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/libc.a(__fmt_d.o)
  .comment       0x000000000000005b       0x2d /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/libc.a(__fmt_fp.o)
  .comment       0x000000000000005b       0x2d /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/libc.a(__fmt_o.o)
@@ -1122,7 +1146,7 @@ END GROUP
  .stack.descriptors.hdr
                 0x000000000000010a        0xe /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/libc.a(exit.o)
  .stack.descriptors.hdr
-                0x0000000000000118        0xe /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/libc.a(__sio_printf_dfoux.o)
+                0x0000000000000118        0xe /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/libc.a(__sio_printf_dfosux.o)
  .stack.descriptors.hdr
                 0x0000000000000126        0xe /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/libc.a(__fmt_d.o)
  .stack.descriptors.hdr
@@ -1215,7 +1239,7 @@ END GROUP
  .note.GNU-stack
                 0x0000000000000000        0x0 /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/libc.a(exit.o)
  .note.GNU-stack
-                0x0000000000000000        0x0 /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/libc.a(__sio_printf_dfoux.o)
+                0x0000000000000000        0x0 /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/libc.a(__sio_printf_dfosux.o)
  .note.GNU-stack
                 0x0000000000000000        0x0 /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/libc.a(__fmt_d.o)
  .note.GNU-stack
@@ -1286,137 +1310,137 @@ END GROUP
 .debug_sfnames
  *(.debug_sfnames)
 
-.debug_aranges  0x0000000000000000      0x5b8
+.debug_aranges  0x0000000000000000      0x5d0
  *(.debug_aranges)
  .debug_aranges
                 0x0000000000000000       0x20 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_assemblePreprocess.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/system/src/protected_io.S.o
  .debug_aranges
-                0x0000000000000020       0x58 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/main.c.o
+                0x0000000000000020       0x70 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/main.c.o
  .debug_aranges
-                0x0000000000000078      0x120 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/adc/src/adc0.c.o
+                0x0000000000000090      0x120 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/adc/src/adc0.c.o
  .debug_aranges
-                0x0000000000000198       0x40 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/dac/src/dac0.c.o
+                0x00000000000001b0       0x40 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/dac/src/dac0.c.o
  .debug_aranges
-                0x00000000000001d8       0x80 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/nvm/src/nvm.c.o
+                0x00000000000001f0       0x80 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/nvm/src/nvm.c.o
  .debug_aranges
-                0x0000000000000258       0x38 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/reset/src/rstctrl.c.o
+                0x0000000000000270       0x38 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/reset/src/rstctrl.c.o
  .debug_aranges
-                0x0000000000000290       0x30 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/system/src/clock.c.o
+                0x00000000000002a8       0x30 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/system/src/clock.c.o
  .debug_aranges
-                0x00000000000002c0       0x18 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/system/src/config_bits.c.o
+                0x00000000000002d8       0x18 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/system/src/config_bits.c.o
  .debug_aranges
-                0x00000000000002d8       0x20 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/system/src/interrupt.c.o
+                0x00000000000002f0       0x20 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/system/src/interrupt.c.o
  .debug_aranges
-                0x00000000000002f8       0xb0 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/system/src/pins.c.o
+                0x0000000000000310       0xb0 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/system/src/pins.c.o
  .debug_aranges
-                0x00000000000003a8       0x20 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/system/src/system.c.o
+                0x00000000000003c0       0x20 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/system/src/system.c.o
  .debug_aranges
-                0x00000000000003c8       0xf0 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/timer/src/tca0.c.o
+                0x00000000000003e0       0xf0 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/timer/src/tca0.c.o
  .debug_aranges
-                0x00000000000004b8       0xe0 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/uart/src/usart0.c.o
+                0x00000000000004d0       0xe0 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/uart/src/usart0.c.o
  .debug_aranges
-                0x0000000000000598       0x20 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/vref/src/vref.c.o
+                0x00000000000005b0       0x20 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/vref/src/vref.c.o
 
 .debug_pubnames
  *(.debug_pubnames)
 
-.debug_info     0x0000000000000000     0xb18e
+.debug_info     0x0000000000000000     0xb6eb
  *(.debug_info .gnu.linkonce.wi.*)
  .debug_info    0x0000000000000000     0x22a4 /home/probe-5028/.mchp_packs/Microchip/AVR-Dx_DFP/2.7.321/xc8/avr/lib/avrxmega2/crtavr64dd32.o
  .debug_info    0x00000000000022a4      0x104 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_assemblePreprocess.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/system/src/protected_io.S.o
- .debug_info    0x00000000000023a8      0xbdc CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/main.c.o
- .debug_info    0x0000000000002f84     0x1ac0 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/adc/src/adc0.c.o
- .debug_info    0x0000000000004a44      0x430 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/dac/src/dac0.c.o
- .debug_info    0x0000000000004e74      0xd9f CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/nvm/src/nvm.c.o
- .debug_info    0x0000000000005c13      0x4ee CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/reset/src/rstctrl.c.o
- .debug_info    0x0000000000006101      0xeea CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/system/src/clock.c.o
- .debug_info    0x0000000000006feb      0x8d6 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/system/src/config_bits.c.o
- .debug_info    0x00000000000078c1      0x3e2 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/system/src/interrupt.c.o
- .debug_info    0x0000000000007ca3      0xbaf CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/system/src/pins.c.o
- .debug_info    0x0000000000008852      0x369 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/system/src/system.c.o
- .debug_info    0x0000000000008bbb     0x1327 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/timer/src/tca0.c.o
- .debug_info    0x0000000000009ee2      0xf5e CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/uart/src/usart0.c.o
- .debug_info    0x000000000000ae40      0x34e CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/vref/src/vref.c.o
+ .debug_info    0x00000000000023a8     0x1139 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/main.c.o
+ .debug_info    0x00000000000034e1     0x1ac0 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/adc/src/adc0.c.o
+ .debug_info    0x0000000000004fa1      0x430 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/dac/src/dac0.c.o
+ .debug_info    0x00000000000053d1      0xd9f CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/nvm/src/nvm.c.o
+ .debug_info    0x0000000000006170      0x4ee CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/reset/src/rstctrl.c.o
+ .debug_info    0x000000000000665e      0xeea CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/system/src/clock.c.o
+ .debug_info    0x0000000000007548      0x8d6 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/system/src/config_bits.c.o
+ .debug_info    0x0000000000007e1e      0x3e2 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/system/src/interrupt.c.o
+ .debug_info    0x0000000000008200      0xbaf CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/system/src/pins.c.o
+ .debug_info    0x0000000000008daf      0x369 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/system/src/system.c.o
+ .debug_info    0x0000000000009118     0x1327 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/timer/src/tca0.c.o
+ .debug_info    0x000000000000a43f      0xf5e CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/uart/src/usart0.c.o
+ .debug_info    0x000000000000b39d      0x34e CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/vref/src/vref.c.o
 
-.debug_abbrev   0x0000000000000000     0x3327
+.debug_abbrev   0x0000000000000000     0x342b
  *(.debug_abbrev)
  .debug_abbrev  0x0000000000000000     0x20ce /home/probe-5028/.mchp_packs/Microchip/AVR-Dx_DFP/2.7.321/xc8/avr/lib/avrxmega2/crtavr64dd32.o
  .debug_abbrev  0x00000000000020ce       0x14 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_assemblePreprocess.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/system/src/protected_io.S.o
- .debug_abbrev  0x00000000000020e2      0x232 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/main.c.o
- .debug_abbrev  0x0000000000002314      0x1b8 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/adc/src/adc0.c.o
- .debug_abbrev  0x00000000000024cc      0x102 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/dac/src/dac0.c.o
- .debug_abbrev  0x00000000000025ce      0x22f CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/nvm/src/nvm.c.o
- .debug_abbrev  0x00000000000027fd      0x15a CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/reset/src/rstctrl.c.o
- .debug_abbrev  0x0000000000002957      0x133 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/system/src/clock.c.o
- .debug_abbrev  0x0000000000002a8a       0x95 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/system/src/config_bits.c.o
- .debug_abbrev  0x0000000000002b1f       0xf8 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/system/src/interrupt.c.o
- .debug_abbrev  0x0000000000002c17      0x148 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/system/src/pins.c.o
- .debug_abbrev  0x0000000000002d5f       0x56 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/system/src/system.c.o
- .debug_abbrev  0x0000000000002db5      0x1e8 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/timer/src/tca0.c.o
- .debug_abbrev  0x0000000000002f9d      0x300 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/uart/src/usart0.c.o
- .debug_abbrev  0x000000000000329d       0x8a CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/vref/src/vref.c.o
+ .debug_abbrev  0x00000000000020e2      0x336 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/main.c.o
+ .debug_abbrev  0x0000000000002418      0x1b8 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/adc/src/adc0.c.o
+ .debug_abbrev  0x00000000000025d0      0x102 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/dac/src/dac0.c.o
+ .debug_abbrev  0x00000000000026d2      0x22f CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/nvm/src/nvm.c.o
+ .debug_abbrev  0x0000000000002901      0x15a CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/reset/src/rstctrl.c.o
+ .debug_abbrev  0x0000000000002a5b      0x133 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/system/src/clock.c.o
+ .debug_abbrev  0x0000000000002b8e       0x95 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/system/src/config_bits.c.o
+ .debug_abbrev  0x0000000000002c23       0xf8 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/system/src/interrupt.c.o
+ .debug_abbrev  0x0000000000002d1b      0x148 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/system/src/pins.c.o
+ .debug_abbrev  0x0000000000002e63       0x56 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/system/src/system.c.o
+ .debug_abbrev  0x0000000000002eb9      0x1e8 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/timer/src/tca0.c.o
+ .debug_abbrev  0x00000000000030a1      0x300 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/uart/src/usart0.c.o
+ .debug_abbrev  0x00000000000033a1       0x8a CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/vref/src/vref.c.o
 
-.debug_line     0x0000000000000000     0x33e4
+.debug_line     0x0000000000000000     0x34ad
  *(.debug_line .debug_line.* .debug_line_end)
  .debug_line    0x0000000000000000      0x16f /home/probe-5028/.mchp_packs/Microchip/AVR-Dx_DFP/2.7.321/xc8/avr/lib/avrxmega2/crtavr64dd32.o
  .debug_line    0x000000000000016f       0xb9 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_assemblePreprocess.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/system/src/protected_io.S.o
- .debug_line    0x0000000000000228      0x6dd CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/main.c.o
- .debug_line    0x0000000000000905      0x5cf CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/adc/src/adc0.c.o
- .debug_line    0x0000000000000ed4      0x21d CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/dac/src/dac0.c.o
- .debug_line    0x00000000000010f1      0x48b CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/nvm/src/nvm.c.o
- .debug_line    0x000000000000157c      0x35b CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/reset/src/rstctrl.c.o
- .debug_line    0x00000000000018d7      0x296 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/system/src/clock.c.o
- .debug_line    0x0000000000001b6d      0x131 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/system/src/config_bits.c.o
- .debug_line    0x0000000000001c9e      0x262 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/system/src/interrupt.c.o
- .debug_line    0x0000000000001f00      0x471 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/system/src/pins.c.o
- .debug_line    0x0000000000002371      0x472 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/system/src/system.c.o
- .debug_line    0x00000000000027e3      0x53e CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/timer/src/tca0.c.o
- .debug_line    0x0000000000002d21      0x573 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/uart/src/usart0.c.o
- .debug_line    0x0000000000003294      0x150 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/vref/src/vref.c.o
+ .debug_line    0x0000000000000228      0x7a6 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/main.c.o
+ .debug_line    0x00000000000009ce      0x5cf CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/adc/src/adc0.c.o
+ .debug_line    0x0000000000000f9d      0x21d CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/dac/src/dac0.c.o
+ .debug_line    0x00000000000011ba      0x48b CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/nvm/src/nvm.c.o
+ .debug_line    0x0000000000001645      0x35b CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/reset/src/rstctrl.c.o
+ .debug_line    0x00000000000019a0      0x296 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/system/src/clock.c.o
+ .debug_line    0x0000000000001c36      0x131 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/system/src/config_bits.c.o
+ .debug_line    0x0000000000001d67      0x262 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/system/src/interrupt.c.o
+ .debug_line    0x0000000000001fc9      0x471 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/system/src/pins.c.o
+ .debug_line    0x000000000000243a      0x472 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/system/src/system.c.o
+ .debug_line    0x00000000000028ac      0x53e CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/timer/src/tca0.c.o
+ .debug_line    0x0000000000002dea      0x573 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/uart/src/usart0.c.o
+ .debug_line    0x000000000000335d      0x150 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/vref/src/vref.c.o
 
-.debug_frame    0x0000000000000000      0xd00
+.debug_frame    0x0000000000000000      0xd90
  *(.debug_frame)
- .debug_frame   0x0000000000000000       0xe4 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/main.c.o
- .debug_frame   0x00000000000000e4      0x2b4 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/adc/src/adc0.c.o
- .debug_frame   0x0000000000000398       0x64 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/dac/src/dac0.c.o
- .debug_frame   0x00000000000003fc      0x148 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/nvm/src/nvm.c.o
- .debug_frame   0x0000000000000544       0x54 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/reset/src/rstctrl.c.o
- .debug_frame   0x0000000000000598       0x44 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/system/src/clock.c.o
- .debug_frame   0x00000000000005dc       0x24 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/system/src/interrupt.c.o
- .debug_frame   0x0000000000000600      0x228 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/system/src/pins.c.o
- .debug_frame   0x0000000000000828       0x24 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/system/src/system.c.o
- .debug_frame   0x000000000000084c      0x2e4 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/timer/src/tca0.c.o
- .debug_frame   0x0000000000000b30      0x1ac CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/uart/src/usart0.c.o
- .debug_frame   0x0000000000000cdc       0x24 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/vref/src/vref.c.o
+ .debug_frame   0x0000000000000000      0x174 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/main.c.o
+ .debug_frame   0x0000000000000174      0x2b4 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/adc/src/adc0.c.o
+ .debug_frame   0x0000000000000428       0x64 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/dac/src/dac0.c.o
+ .debug_frame   0x000000000000048c      0x148 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/nvm/src/nvm.c.o
+ .debug_frame   0x00000000000005d4       0x54 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/reset/src/rstctrl.c.o
+ .debug_frame   0x0000000000000628       0x44 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/system/src/clock.c.o
+ .debug_frame   0x000000000000066c       0x24 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/system/src/interrupt.c.o
+ .debug_frame   0x0000000000000690      0x228 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/system/src/pins.c.o
+ .debug_frame   0x00000000000008b8       0x24 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/system/src/system.c.o
+ .debug_frame   0x00000000000008dc      0x2e4 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/timer/src/tca0.c.o
+ .debug_frame   0x0000000000000bc0      0x1ac CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/uart/src/usart0.c.o
+ .debug_frame   0x0000000000000d6c       0x24 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/vref/src/vref.c.o
 
-.debug_str      0x0000000000000000     0x11c3
+.debug_str      0x0000000000000000     0x1224
  *(.debug_str)
  .debug_str     0x0000000000000000      0xefb /home/probe-5028/.mchp_packs/Microchip/AVR-Dx_DFP/2.7.321/xc8/avr/lib/avrxmega2/crtavr64dd32.o
- .debug_str     0x0000000000000efb      0x11e CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/main.c.o
- .debug_str     0x0000000000001019        0x9 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/adc/src/adc0.c.o
- .debug_str     0x0000000000001022        0x0 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/dac/src/dac0.c.o
- .debug_str     0x0000000000001022       0x1b CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/nvm/src/nvm.c.o
- .debug_str     0x000000000000103d       0x13 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/reset/src/rstctrl.c.o
- .debug_str     0x0000000000001050       0x13 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/system/src/clock.c.o
- .debug_str     0x0000000000001063        0x0 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/system/src/config_bits.c.o
- .debug_str     0x0000000000001063       0x13 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/system/src/interrupt.c.o
- .debug_str     0x0000000000001076       0x30 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/system/src/pins.c.o
- .debug_str     0x00000000000010a6       0x9b CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/system/src/system.c.o
- .debug_str     0x0000000000001141       0x72 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/timer/src/tca0.c.o
- .debug_str     0x00000000000011b3       0x10 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/uart/src/usart0.c.o
- .debug_str     0x00000000000011c3        0x0 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/vref/src/vref.c.o
+ .debug_str     0x0000000000000efb      0x17f CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/main.c.o
+ .debug_str     0x000000000000107a        0x9 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/adc/src/adc0.c.o
+ .debug_str     0x0000000000001083        0x0 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/dac/src/dac0.c.o
+ .debug_str     0x0000000000001083       0x1b CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/nvm/src/nvm.c.o
+ .debug_str     0x000000000000109e       0x13 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/reset/src/rstctrl.c.o
+ .debug_str     0x00000000000010b1       0x13 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/system/src/clock.c.o
+ .debug_str     0x00000000000010c4        0x0 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/system/src/config_bits.c.o
+ .debug_str     0x00000000000010c4       0x13 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/system/src/interrupt.c.o
+ .debug_str     0x00000000000010d7       0x30 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/system/src/pins.c.o
+ .debug_str     0x0000000000001107       0x9b CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/system/src/system.c.o
+ .debug_str     0x00000000000011a2       0x72 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/timer/src/tca0.c.o
+ .debug_str     0x0000000000001214       0x10 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/uart/src/usart0.c.o
+ .debug_str     0x0000000000001224        0x0 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/vref/src/vref.c.o
 
-.debug_loc      0x0000000000000000      0xe92
+.debug_loc      0x0000000000000000      0xf9b
  *(.debug_loc)
- .debug_loc     0x0000000000000000      0x536 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/main.c.o
- .debug_loc     0x0000000000000536       0x6f CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/adc/src/adc0.c.o
- .debug_loc     0x00000000000005a5       0x28 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/dac/src/dac0.c.o
- .debug_loc     0x00000000000005cd      0x49f CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/nvm/src/nvm.c.o
- .debug_loc     0x0000000000000a6c       0xc7 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/reset/src/rstctrl.c.o
- .debug_loc     0x0000000000000b33      0x23b CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/system/src/clock.c.o
- .debug_loc     0x0000000000000d6e       0x2a CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/system/src/interrupt.c.o
- .debug_loc     0x0000000000000d98       0x34 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/timer/src/tca0.c.o
- .debug_loc     0x0000000000000dcc       0xc6 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/uart/src/usart0.c.o
+ .debug_loc     0x0000000000000000      0x63f CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/main.c.o
+ .debug_loc     0x000000000000063f       0x6f CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/adc/src/adc0.c.o
+ .debug_loc     0x00000000000006ae       0x28 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/dac/src/dac0.c.o
+ .debug_loc     0x00000000000006d6      0x49f CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/nvm/src/nvm.c.o
+ .debug_loc     0x0000000000000b75       0xc7 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/reset/src/rstctrl.c.o
+ .debug_loc     0x0000000000000c3c      0x23b CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/system/src/clock.c.o
+ .debug_loc     0x0000000000000e77       0x2a CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/system/src/interrupt.c.o
+ .debug_loc     0x0000000000000ea1       0x34 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/timer/src/tca0.c.o
+ .debug_loc     0x0000000000000ed5       0xc6 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/uart/src/usart0.c.o
 
 .debug_macinfo
  *(.debug_macinfo)
@@ -1436,20 +1460,20 @@ END GROUP
 .debug_pubtypes
  *(.debug_pubtypes)
 
-.debug_ranges   0x0000000000000000      0x4d8
+.debug_ranges   0x0000000000000000      0x4f0
  *(.debug_ranges)
- .debug_ranges  0x0000000000000000       0x60 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/main.c.o
- .debug_ranges  0x0000000000000060      0x110 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/adc/src/adc0.c.o
- .debug_ranges  0x0000000000000170       0x30 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/dac/src/dac0.c.o
- .debug_ranges  0x00000000000001a0       0x70 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/nvm/src/nvm.c.o
- .debug_ranges  0x0000000000000210       0x28 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/reset/src/rstctrl.c.o
- .debug_ranges  0x0000000000000238       0x20 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/system/src/clock.c.o
- .debug_ranges  0x0000000000000258       0x10 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/system/src/interrupt.c.o
- .debug_ranges  0x0000000000000268       0xa0 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/system/src/pins.c.o
- .debug_ranges  0x0000000000000308       0x10 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/system/src/system.c.o
- .debug_ranges  0x0000000000000318       0xe0 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/timer/src/tca0.c.o
- .debug_ranges  0x00000000000003f8       0xd0 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/uart/src/usart0.c.o
- .debug_ranges  0x00000000000004c8       0x10 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/vref/src/vref.c.o
+ .debug_ranges  0x0000000000000000       0x78 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/main.c.o
+ .debug_ranges  0x0000000000000078      0x110 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/adc/src/adc0.c.o
+ .debug_ranges  0x0000000000000188       0x30 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/dac/src/dac0.c.o
+ .debug_ranges  0x00000000000001b8       0x70 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/nvm/src/nvm.c.o
+ .debug_ranges  0x0000000000000228       0x28 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/reset/src/rstctrl.c.o
+ .debug_ranges  0x0000000000000250       0x20 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/system/src/clock.c.o
+ .debug_ranges  0x0000000000000270       0x10 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/system/src/interrupt.c.o
+ .debug_ranges  0x0000000000000280       0xa0 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/system/src/pins.c.o
+ .debug_ranges  0x0000000000000320       0x10 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/system/src/system.c.o
+ .debug_ranges  0x0000000000000330       0xe0 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/timer/src/tca0.c.o
+ .debug_ranges  0x0000000000000410       0xd0 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/uart/src/usart0.c.o
+ .debug_ranges  0x00000000000004e0       0x10 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/vref/src/vref.c.o
 
 .debug_macro
  *(.debug_macro)
@@ -1463,92 +1487,92 @@ LOAD data_init
                 0x0000000000000000       0x3c /home/probe-5028/.mchp_packs/Microchip/AVR-Dx_DFP/2.7.321/xc8/avr/lib/avrxmega2/crtavr64dd32.o
 
 .bss.ADC0_ThresholdCallback
-                0x00000000008060ee        0x2
+                0x00000000008060f1        0x2
  .bss.ADC0_ThresholdCallback
-                0x00000000008060ee        0x2 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/adc/src/adc0.c.o
+                0x00000000008060f1        0x2 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/adc/src/adc0.c.o
 
 .bss.ADC0_ConversionDoneCallback
-                0x00000000008060f0        0x2
+                0x00000000008060f3        0x2
  .bss.ADC0_ConversionDoneCallback
-                0x00000000008060f0        0x2 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/adc/src/adc0.c.o
+                0x00000000008060f3        0x2 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/adc/src/adc0.c.o
 
 .bss.IO_PF5_InterruptHandler
-                0x00000000008060f2        0x2
+                0x00000000008060f5        0x2
  .bss.IO_PF5_InterruptHandler
-                0x00000000008060f2        0x2 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/system/src/pins.c.o
+                0x00000000008060f5        0x2 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/system/src/pins.c.o
 
 .bss.IO_PF6_InterruptHandler
-                0x00000000008060f4        0x2
+                0x00000000008060f7        0x2
  .bss.IO_PF6_InterruptHandler
-                0x00000000008060f4        0x2 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/system/src/pins.c.o
+                0x00000000008060f7        0x2 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/system/src/pins.c.o
 
 .bss.IO_PF4_InterruptHandler
-                0x00000000008060f6        0x2
+                0x00000000008060f9        0x2
  .bss.IO_PF4_InterruptHandler
-                0x00000000008060f6        0x2 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/system/src/pins.c.o
+                0x00000000008060f9        0x2 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/system/src/pins.c.o
 
 .bss.IO_PD6_InterruptHandler
-                0x00000000008060f8        0x2
+                0x00000000008060fb        0x2
  .bss.IO_PD6_InterruptHandler
-                0x00000000008060f8        0x2 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/system/src/pins.c.o
+                0x00000000008060fb        0x2 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/system/src/pins.c.o
 
 .bss.IO_PA7_InterruptHandler
-                0x00000000008060fa        0x2
+                0x00000000008060fd        0x2
  .bss.IO_PA7_InterruptHandler
-                0x00000000008060fa        0x2 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/system/src/pins.c.o
+                0x00000000008060fd        0x2 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/system/src/pins.c.o
 
 .bss.IO_PD4_InterruptHandler
-                0x00000000008060fc        0x2
+                0x00000000008060ff        0x2
  .bss.IO_PD4_InterruptHandler
-                0x00000000008060fc        0x2 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/system/src/pins.c.o
+                0x00000000008060ff        0x2 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/system/src/pins.c.o
 
 .bss.IO_PD5_InterruptHandler
-                0x00000000008060fe        0x2
+                0x0000000000806101        0x2
  .bss.IO_PD5_InterruptHandler
-                0x00000000008060fe        0x2 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/system/src/pins.c.o
+                0x0000000000806101        0x2 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/system/src/pins.c.o
 
 .bss.TCA0_OVFCallback
-                0x0000000000806100        0x2
+                0x0000000000806103        0x2
  .bss.TCA0_OVFCallback
-                0x0000000000806100        0x2 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/timer/src/tca0.c.o
+                0x0000000000806103        0x2 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/timer/src/tca0.c.o
 
 .bss.TCA0_CMP2Callback
-                0x0000000000806102        0x2
+                0x0000000000806105        0x2
  .bss.TCA0_CMP2Callback
-                0x0000000000806102        0x2 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/timer/src/tca0.c.o
+                0x0000000000806105        0x2 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/timer/src/tca0.c.o
 
 .bss.TCA0_CMP1Callback
-                0x0000000000806104        0x2
+                0x0000000000806107        0x2
  .bss.TCA0_CMP1Callback
-                0x0000000000806104        0x2 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/timer/src/tca0.c.o
+                0x0000000000806107        0x2 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/timer/src/tca0.c.o
 
 .bss.TCA0_CMP0Callback
-                0x0000000000806106        0x2
+                0x0000000000806109        0x2
  .bss.TCA0_CMP0Callback
-                0x0000000000806106        0x2 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/timer/src/tca0.c.o
+                0x0000000000806109        0x2 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/timer/src/tca0.c.o
 
 .bss.USART0_ParityErrorHandler
-                0x0000000000806108        0x2
+                0x000000000080610b        0x2
  .bss.USART0_ParityErrorHandler
-                0x0000000000806108        0x2 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/uart/src/usart0.c.o
+                0x000000000080610b        0x2 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/uart/src/usart0.c.o
 
 .bss.USART0_OverrunErrorHandler
-                0x000000000080610a        0x2
+                0x000000000080610d        0x2
  .bss.USART0_OverrunErrorHandler
-                0x000000000080610a        0x2 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/uart/src/usart0.c.o
+                0x000000000080610d        0x2 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/uart/src/usart0.c.o
 
 .bss.USART0_FramingErrorHandler
-                0x000000000080610c        0x2
+                0x000000000080610f        0x2
  .bss.USART0_FramingErrorHandler
-                0x000000000080610c        0x2 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/uart/src/usart0.c.o
+                0x000000000080610f        0x2 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/uart/src/usart0.c.o
 
 .bss.usart0RxLastError
-                0x000000000080610e        0x2
+                0x0000000000806111        0x2
  .bss.usart0RxLastError
-                0x000000000080610e        0x2 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/uart/src/usart0.c.o
+                0x0000000000806111        0x2 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/uart/src/usart0.c.o
 
-.bss.__stdout   0x0000000000806112        0x2
- .bss.__stdout  0x0000000000806112        0x2 /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/libc.a(stdout.o)
+.bss.__stdout   0x0000000000806115        0x2
+ .bss.__stdout  0x0000000000806115        0x2 /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/libc.a(stdout.o)
 
 .text.__fmt_fp  0x0000000000000102      0x728
  .text.__fmt_fp
@@ -1562,663 +1586,657 @@ LOAD data_init
                 0x000000000000082a      0x3fc /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/libc.a(__printf_core.o)
                 0x000000000000082a                vfpfcnvrt
 
-.text.main      0x0000000000000c26      0x252
- .text.main     0x0000000000000c26      0x252 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/main.c.o
-                0x0000000000000c26                main
+.text.__fmt_x   0x0000000000000c26      0x1dc
+ .text.__fmt_x  0x0000000000000c26      0x1dc /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/libc.a(__fmt_x.o)
+                0x0000000000000c26                __fmt_x
+                0x0000000000000c26                __fmt_x_needed
 
-.text.__fmt_x   0x0000000000000e78      0x1dc
- .text.__fmt_x  0x0000000000000e78      0x1dc /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/libc.a(__fmt_x.o)
-                0x0000000000000e78                __fmt_x
-                0x0000000000000e78                __fmt_x_needed
+.text.main      0x0000000000000e02      0x1c6
+ .text.main     0x0000000000000e02      0x1c6 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/main.c.o
+                0x0000000000000e02                main
 
 .text.PIN_MANAGER_Initialize
-                0x0000000000001054      0x10e
+                0x0000000000000fc8      0x10e
  .text.PIN_MANAGER_Initialize
-                0x0000000000001054      0x10e CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/system/src/pins.c.o
-                0x0000000000001054                PIN_MANAGER_Initialize
+                0x0000000000000fc8      0x10e CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/system/src/pins.c.o
+                0x0000000000000fc8                PIN_MANAGER_Initialize
 
-.text.floorf    0x0000000000001162       0xe8
- .text.floorf   0x0000000000001162       0xe8 /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/libm.a(floorf.o)
-                0x0000000000001162                floorf
+.text.floorf    0x00000000000010d6       0xe8
+ .text.floorf   0x00000000000010d6       0xe8 /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/libm.a(floorf.o)
+                0x00000000000010d6                floorf
 
-.text.__fmt_d   0x000000000000124a       0xe4
- .text.__fmt_d  0x000000000000124a       0xe4 /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/libc.a(__fmt_d.o)
-                0x000000000000124a                __fmt_d_needed
-                0x000000000000124a                __fmt_d
+.text.__fmt_d   0x00000000000011be       0xe4
+ .text.__fmt_d  0x00000000000011be       0xe4 /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/libc.a(__fmt_d.o)
+                0x00000000000011be                __fmt_d_needed
+                0x00000000000011be                __fmt_d
 
-.text           0x000000000000132e       0xde
- .text          0x000000000000132e       0xde /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/libm.a(divsf3x.o)
-                0x000000000000132e                __divsf3x
-                0x0000000000001356                __divsf3_pse
+.text           0x00000000000012a2       0xde
+ .text          0x00000000000012a2       0xde /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/libm.a(divsf3x.o)
+                0x00000000000012a2                __divsf3x
+                0x00000000000012ca                __divsf3_pse
 
-.text           0x000000000000140c       0xd4
- .text          0x000000000000140c       0xd4 /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/libm.a(mulsf3x.o)
-                0x000000000000140c                __mulsf3x
-                0x0000000000001432                __mulsf3_pse
+.text           0x0000000000001380       0xd4
+ .text          0x0000000000001380       0xd4 /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/libm.a(mulsf3x.o)
+                0x0000000000001380                __mulsf3x
+                0x00000000000013a6                __mulsf3_pse
 
 .text.__pop_int
-                0x00000000000014e0       0xd0
+                0x0000000000001454       0xd0
  .text.__pop_int
-                0x00000000000014e0       0xd0 /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/libc.a(__pop_int.o)
-                0x00000000000014e0                __pop_int
-                0x00000000000014e0                __pop_int_needed
+                0x0000000000001454       0xd0 /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/libc.a(__pop_int.o)
+                0x0000000000001454                __pop_int
+                0x0000000000001454                __pop_int_needed
 
-.text           0x00000000000015b0       0xce
- .text          0x00000000000015b0       0xce /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/libm.a(addsf3x.o)
-                0x00000000000015b0                __addsf3x
+.text           0x0000000000001524       0xce
+ .text          0x0000000000001524       0xce /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/libm.a(addsf3x.o)
+                0x0000000000001524                __addsf3x
 
-.text.__cvt_u   0x000000000000167e       0xca
- .text.__cvt_u  0x000000000000167e       0xca /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/libc.a(__fmt_u.o)
-                0x000000000000167e                __cvt_u
+.text.__cvt_u   0x00000000000015f2       0xca
+ .text.__cvt_u  0x00000000000015f2       0xca /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/libc.a(__fmt_u.o)
+                0x00000000000015f2                __cvt_u
 
-.text.__fmt_o   0x0000000000001748       0xb2
- .text.__fmt_o  0x0000000000001748       0xb2 /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/libc.a(__fmt_o.o)
-                0x0000000000001748                __fmt_o_needed
-                0x0000000000001748                __fmt_o
+.text.__fmt_o   0x00000000000016bc       0xb2
+ .text.__fmt_o  0x00000000000016bc       0xb2 /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/libc.a(__fmt_o.o)
+                0x00000000000016bc                __fmt_o_needed
+                0x00000000000016bc                __fmt_o
 
-.text.fputc     0x00000000000017fa       0x98
- .text.fputc    0x00000000000017fa       0x98 /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/libc.a(fputc.o)
-                0x00000000000017fa                putc
-                0x00000000000017fa                fputc
+.text.fputc     0x000000000000176e       0x98
+ .text.fputc    0x000000000000176e       0x98 /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/libc.a(fputc.o)
+                0x000000000000176e                putc
+                0x000000000000176e                fputc
 
 .text.CLOCK_Initialize
-                0x0000000000001892       0x90
+                0x0000000000001806       0x90
  .text.CLOCK_Initialize
-                0x0000000000001892       0x90 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/system/src/clock.c.o
-                0x0000000000001892                CLOCK_Initialize
+                0x0000000000001806       0x90 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/system/src/clock.c.o
+                0x0000000000001806                CLOCK_Initialize
 
-.text.__fmt_u   0x0000000000001922       0x8e
- .text.__fmt_u  0x0000000000001922       0x8e /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/libc.a(__fmt_u.o)
-                0x0000000000001922                __fmt_u
-                0x0000000000001922                __fmt_u_needed
+.text.__fmt_u   0x0000000000001896       0x8e
+ .text.__fmt_u  0x0000000000001896       0x8e /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/libc.a(__fmt_u.o)
+                0x0000000000001896                __fmt_u
+                0x0000000000001896                __fmt_u_needed
 
 .text.__vector_24
-                0x00000000000019b0       0x72
+                0x0000000000001924       0x72
  .text.__vector_24
-                0x00000000000019b0       0x72 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/system/src/pins.c.o
-                0x00000000000019b0                __vector_24
+                0x0000000000001924       0x72 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/system/src/pins.c.o
+                0x0000000000001924                __vector_24
 
 .text.__vector_34
-                0x0000000000001a22       0x72
+                0x0000000000001996       0x72
  .text.__vector_34
-                0x0000000000001a22       0x72 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/system/src/pins.c.o
-                0x0000000000001a22                __vector_34
+                0x0000000000001996       0x72 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/system/src/pins.c.o
+                0x0000000000001996                __vector_34
 
-.text.__pad     0x0000000000001a94       0x72
- .text.__pad    0x0000000000001a94       0x72 /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/libc.a(__printf_core.o)
-                0x0000000000001a94                __pad
+.text.__pad     0x0000000000001a08       0x72
+ .text.__pad    0x0000000000001a08       0x72 /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/libc.a(__printf_core.o)
+                0x0000000000001a08                __pad
 
 .text.__printf_core
-                0x0000000000001b06       0x68
+                0x0000000000001a7a       0x68
  .text.__printf_core
-                0x0000000000001b06       0x68 /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/libc.a(__printf_core.o)
-                0x0000000000001b06                __printf_core
+                0x0000000000001a7a       0x68 /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/libc.a(__printf_core.o)
+                0x0000000000001a7a                __printf_core
 
-.text.fputs     0x0000000000001b6e       0x64
- .text.fputs    0x0000000000001b6e       0x64 /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/libc.a(fputs.o)
-                0x0000000000001b6e                fputs_unlocked
-                0x0000000000001b6e                fputs
+.text.fputs     0x0000000000001ae2       0x64
+ .text.fputs    0x0000000000001ae2       0x64 /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/libc.a(fputs.o)
+                0x0000000000001ae2                fputs_unlocked
+                0x0000000000001ae2                fputs
 
-.text           0x0000000000001bd2       0x5e
- .text          0x0000000000001bd2       0x5e /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/libm.a(fixunssfsi.o)
-                0x0000000000001bd2                __fixunssfsi
+.text           0x0000000000001b46       0x5e
+ .text          0x0000000000001b46       0x5e /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/libm.a(fixunssfsi.o)
+                0x0000000000001b46                __fixunssfsi
 
 .text.USART0_Initialize
-                0x0000000000001c30       0x5c
+                0x0000000000001ba4       0x5c
  .text.USART0_Initialize
-                0x0000000000001c30       0x5c CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/uart/src/usart0.c.o
-                0x0000000000001c30                USART0_Initialize
+                0x0000000000001ba4       0x5c CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/uart/src/usart0.c.o
+                0x0000000000001ba4                USART0_Initialize
 
 .text.read_prec_or_width
-                0x0000000000001c8c       0x5c
+                0x0000000000001c00       0x5c
  .text.read_prec_or_width
-                0x0000000000001c8c       0x5c /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/libc.a(__printf_core.o)
+                0x0000000000001c00       0x5c /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/libc.a(__printf_core.o)
 
 .text.__vector_26
-                0x0000000000001ce8       0x58
+                0x0000000000001c5c       0x58
  .text.__vector_26
-                0x0000000000001ce8       0x58 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/adc/src/adc0.c.o
-                0x0000000000001ce8                __vector_26
+                0x0000000000001c5c       0x58 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/adc/src/adc0.c.o
+                0x0000000000001c5c                __vector_26
 
 .text.__vector_27
-                0x0000000000001d40       0x58
+                0x0000000000001cb4       0x58
  .text.__vector_27
-                0x0000000000001d40       0x58 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/adc/src/adc0.c.o
-                0x0000000000001d40                __vector_27
+                0x0000000000001cb4       0x58 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/adc/src/adc0.c.o
+                0x0000000000001cb4                __vector_27
 
 .text.__vector_11
-                0x0000000000001d98       0x58
+                0x0000000000001d0c       0x58
  .text.__vector_11
-                0x0000000000001d98       0x58 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/timer/src/tca0.c.o
-                0x0000000000001d98                __vector_11
+                0x0000000000001d0c       0x58 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/timer/src/tca0.c.o
+                0x0000000000001d0c                __vector_11
 
 .text.__vector_12
-                0x0000000000001df0       0x58
+                0x0000000000001d64       0x58
  .text.__vector_12
-                0x0000000000001df0       0x58 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/timer/src/tca0.c.o
-                0x0000000000001df0                __vector_12
+                0x0000000000001d64       0x58 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/timer/src/tca0.c.o
+                0x0000000000001d64                __vector_12
 
 .text.__vector_13
-                0x0000000000001e48       0x58
+                0x0000000000001dbc       0x58
  .text.__vector_13
-                0x0000000000001e48       0x58 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/timer/src/tca0.c.o
-                0x0000000000001e48                __vector_13
+                0x0000000000001dbc       0x58 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/timer/src/tca0.c.o
+                0x0000000000001dbc                __vector_13
 
 .text.__vector_9
-                0x0000000000001ea0       0x58
+                0x0000000000001e14       0x58
  .text.__vector_9
-                0x0000000000001ea0       0x58 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/timer/src/tca0.c.o
-                0x0000000000001ea0                __vector_9
+                0x0000000000001e14       0x58 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/timer/src/tca0.c.o
+                0x0000000000001e14                __vector_9
 
 .text.__vector_8
-                0x0000000000001ef8       0x56
+                0x0000000000001e6c       0x56
  .text.__vector_8
-                0x0000000000001ef8       0x56 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/system/src/pins.c.o
-                0x0000000000001ef8                __vector_8
+                0x0000000000001e6c       0x56 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/system/src/pins.c.o
+                0x0000000000001e6c                __vector_8
 
 .text.intCountsToVoltage
-                0x0000000000001f4e       0x54
+                0x0000000000001ec2       0x54
  .text.intCountsToVoltage
-                0x0000000000001f4e       0x54 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/main.c.o
-                0x0000000000001f4e                intCountsToVoltage
+                0x0000000000001ec2       0x54 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/main.c.o
+                0x0000000000001ec2                intCountsToVoltage
 
-.text.__fmt_s   0x0000000000001fa2       0x54
- .text.__fmt_s  0x0000000000001fa2       0x54 /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/libc.a(__fmt_s.o)
-                0x0000000000001fa2                __fmt_s_needed
-                0x0000000000001fa2                __fmt_s
-                0x0000000000001fa2                __fmt_0_needed
+.text.__fmt_s   0x0000000000001f16       0x54
+ .text.__fmt_s  0x0000000000001f16       0x54 /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/libc.a(__fmt_s.o)
+                0x0000000000001f16                __fmt_s_needed
+                0x0000000000001f16                __fmt_s
+                0x0000000000001f16                __fmt_0_needed
 
 .text.ADC0_Initialize
-                0x0000000000001ff6       0x4c
+                0x0000000000001f6a       0x4c
  .text.ADC0_Initialize
-                0x0000000000001ff6       0x4c CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/adc/src/adc0.c.o
-                0x0000000000001ff6                ADC0_Initialize
+                0x0000000000001f6a       0x4c CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/adc/src/adc0.c.o
+                0x0000000000001f6a                ADC0_Initialize
 
-.text           0x0000000000002042       0x48
- .text          0x0000000000002042       0x48 /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/libm.a(fp_cmp.o)
-                0x0000000000002042                __fp_cmp
+.text.EEPROM_Read_bytes
+                0x0000000000001fb6       0x4a
+ .text.EEPROM_Read_bytes
+                0x0000000000001fb6       0x4a CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/main.c.o
+                0x0000000000001fb6                EEPROM_Read_bytes
+
+.text           0x0000000000002000       0x48
+ .text          0x0000000000002000       0x48 /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/libm.a(fp_cmp.o)
+                0x0000000000002000                __fp_cmp
 
 .text.libgcc.div
-                0x000000000000208a       0x44
+                0x0000000000002048       0x44
  .text.libgcc.div
-                0x000000000000208a       0x44 /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/avrxmega2/libgcc.a(_udivmodsi4.o)
-                0x000000000000208a                __udivmodsi4
+                0x0000000000002048       0x44 /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/avrxmega2/libgcc.a(_udivmodsi4.o)
+                0x0000000000002048                __udivmodsi4
 
-.text           0x00000000000020ce       0x44
- .text          0x00000000000020ce       0x44 /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/libm.a(fp_split3.o)
-                0x00000000000020ce                __fp_split3
-                0x00000000000020de                __fp_splitA
+.text           0x000000000000208c       0x44
+ .text          0x000000000000208c       0x44 /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/libm.a(fp_split3.o)
+                0x000000000000208c                __fp_split3
+                0x000000000000209c                __fp_splitA
 
 .text.__fmt_state
-                0x0000000000002112       0x40
+                0x00000000000020d0       0x40
  .text.__fmt_state
-                0x0000000000002112       0x40 /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/libc.a(__printf_core.o)
-                0x0000000000002112                __fmt_state
+                0x00000000000020d0       0x40 /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/libc.a(__printf_core.o)
+                0x00000000000020d0                __fmt_state
 
 .text.__pop_float
-                0x0000000000002152       0x40
+                0x0000000000002110       0x40
  .text.__pop_float
-                0x0000000000002152       0x40 /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/libc.a(__pop_float.o)
-                0x0000000000002152                __pop_float
-                0x0000000000002152                __pop_float_needed
+                0x0000000000002110       0x40 /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/libc.a(__pop_float.o)
+                0x0000000000002110                __pop_float
+                0x0000000000002110                __pop_float_needed
 
 .text.TCA0_Initialize
-                0x0000000000002192       0x3c
+                0x0000000000002150       0x3c
  .text.TCA0_Initialize
-                0x0000000000002192       0x3c CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/timer/src/tca0.c.o
-                0x0000000000002192                TCA0_Initialize
+                0x0000000000002150       0x3c CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/timer/src/tca0.c.o
+                0x0000000000002150                TCA0_Initialize
 
-.text.__out     0x00000000000021ce       0x3a
- .text.__out    0x00000000000021ce       0x3a /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/libc.a(__printf_core.o)
-                0x00000000000021ce                __out
+.text.__out     0x000000000000218c       0x3a
+ .text.__out    0x000000000000218c       0x3a /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/libc.a(__printf_core.o)
+                0x000000000000218c                __out
 
 .text.myADC0_ConversionDoneCallback
-                0x0000000000002208       0x32
+                0x00000000000021c6       0x32
  .text.myADC0_ConversionDoneCallback
-                0x0000000000002208       0x32 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/main.c.o
+                0x00000000000021c6       0x32 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/main.c.o
 
 .text.libgcc.prologue
-                0x000000000000223a       0x32
+                0x00000000000021f8       0x32
  .text.libgcc.prologue
-                0x000000000000223a       0x32 /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/avrxmega2/libgcc.a(_prologue.o)
-                0x000000000000223a                __prologue_saves__
+                0x00000000000021f8       0x32 /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/avrxmega2/libgcc.a(_prologue.o)
+                0x00000000000021f8                __prologue_saves__
 
 .text.__wrap_printf
-                0x000000000000226c       0x30
+                0x000000000000222a       0x30
  .text.__wrap_printf
-                0x000000000000226c       0x30 /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/libc.a(__sio_printf_dfoux.o)
-                0x000000000000226c                _printf_cdeEgGopuxX
-                0x000000000000226c                _printf_cdfFopuxX
-                0x000000000000226c                _printf_cdgGopuxX
-                0x000000000000226c                _printf_cdfFgGopuxX
-                0x000000000000226c                _printf_cdeEfFgGopuxX
-                0x000000000000226c                _printf_cdeEopuxX
-                0x000000000000226c                _printf_cdeEfFopuxX
+                0x000000000000222a       0x30 /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/libc.a(__sio_printf_dfosux.o)
+                0x000000000000222a                _printf_cdgGopsuxX
+                0x000000000000222a                _printf_cdeEfFgGopsuxX
+                0x000000000000222a                _printf_cdeEopsuxX
+                0x000000000000222a                _printf_cdfFgGopsuxX
+                0x000000000000222a                _printf_cdeEgGopsuxX
+                0x000000000000222a                _printf_cdeEfFopsuxX
+                0x000000000000222a                _printf_cdfFopsuxX
 
 .text.__vfprintf
-                0x000000000000229c       0x30
+                0x000000000000225a       0x30
  .text.__vfprintf
-                0x000000000000229c       0x30 /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/libc.a(__int_vfprintf.o)
-                0x000000000000229c                __vfprintf
+                0x000000000000225a       0x30 /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/libc.a(__int_vfprintf.o)
+                0x000000000000225a                __vfprintf
 
 .text.libgcc.prologue
-                0x00000000000022cc       0x30
+                0x000000000000228a       0x30
  .text.libgcc.prologue
-                0x00000000000022cc       0x30 /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/avrxmega2/libgcc.a(_epilogue.o)
-                0x00000000000022cc                __epilogue_restores__
+                0x000000000000228a       0x30 /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/avrxmega2/libgcc.a(_epilogue.o)
+                0x000000000000228a                __epilogue_restores__
 
 .text.intVoltageToCounts
-                0x00000000000022fc       0x2e
+                0x00000000000022ba       0x2e
  .text.intVoltageToCounts
-                0x00000000000022fc       0x2e CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/main.c.o
-                0x00000000000022fc                intVoltageToCounts
+                0x00000000000022ba       0x2e CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/main.c.o
+                0x00000000000022ba                intVoltageToCounts
 
 .text.libgcc.div
-                0x000000000000232a       0x2e
+                0x00000000000022e8       0x2e
  .text.libgcc.div
-                0x000000000000232a       0x2e /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/avrxmega2/libgcc.a(_divmodsi4.o)
-                0x000000000000232a                __divmodsi4
-
-.text.EEPROM_Write
-                0x0000000000002358       0x2c
- .text.EEPROM_Write
-                0x0000000000002358       0x2c CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/nvm/src/nvm.c.o
-                0x0000000000002358                EEPROM_Write
+                0x00000000000022e8       0x2e /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/avrxmega2/libgcc.a(_divmodsi4.o)
+                0x00000000000022e8                __divmodsi4
 
 .text.libgcc.div
-                0x0000000000002384       0x28
+                0x0000000000002316       0x28
  .text.libgcc.div
-                0x0000000000002384       0x28 /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/avrxmega2/libgcc.a(_divmodhi4.o)
-                0x0000000000002384                __divmodhi4
-                0x0000000000002384                _div
+                0x0000000000002316       0x28 /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/avrxmega2/libgcc.a(_divmodhi4.o)
+                0x0000000000002316                __divmodhi4
+                0x0000000000002316                _div
 
 .text.libgcc.div
-                0x00000000000023ac       0x28
+                0x000000000000233e       0x28
  .text.libgcc.div
-                0x00000000000023ac       0x28 /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/avrxmega2/libgcc.a(_udivmodhi4.o)
-                0x00000000000023ac                __udivmodhi4
+                0x000000000000233e       0x28 /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/avrxmega2/libgcc.a(_udivmodhi4.o)
+                0x000000000000233e                __udivmodhi4
 
 .text.SYSTEM_Initialize
-                0x00000000000023d4       0x26
+                0x0000000000002366       0x26
  .text.SYSTEM_Initialize
-                0x00000000000023d4       0x26 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/system/src/system.c.o
-                0x00000000000023d4                SYSTEM_Initialize
+                0x0000000000002366       0x26 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/system/src/system.c.o
+                0x0000000000002366                SYSTEM_Initialize
 
-.text           0x00000000000023fa       0x22
- .text          0x00000000000023fa       0x22 /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/libm.a(fp_round.o)
-                0x00000000000023fa                __fp_round
+.text           0x000000000000238c       0x22
+ .text          0x000000000000238c       0x22 /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/libm.a(fp_round.o)
+                0x000000000000238c                __fp_round
 
 .text.libgcc.mul
-                0x000000000000241c       0x1e
+                0x00000000000023ae       0x1e
  .text.libgcc.mul
-                0x000000000000241c       0x1e /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/avrxmega2/libgcc.a(_umulhisi3.o)
-                0x000000000000241c                __umulhisi3
+                0x00000000000023ae       0x1e /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/avrxmega2/libgcc.a(_umulhisi3.o)
+                0x00000000000023ae                __umulhisi3
 
 .text.DAC0_SetOutput
-                0x000000000000243a       0x1c
+                0x00000000000023cc       0x1c
  .text.DAC0_SetOutput
-                0x000000000000243a       0x1c CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/dac/src/dac0.c.o
-                0x000000000000243a                DAC0_SetOutput
+                0x00000000000023cc       0x1c CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/dac/src/dac0.c.o
+                0x00000000000023cc                DAC0_SetOutput
 
-.text.strlen    0x0000000000002456       0x1c
- .text.strlen   0x0000000000002456       0x1c /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/libc.a(strlen.o)
-                0x0000000000002456                strlen
+.text.strlen    0x00000000000023e8       0x1c
+ .text.strlen   0x00000000000023e8       0x1c /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/libc.a(strlen.o)
+                0x00000000000023e8                strlen
 
 .text.CPUINT_Initialize
-                0x0000000000002472       0x1a
+                0x0000000000002404       0x1a
  .text.CPUINT_Initialize
-                0x0000000000002472       0x1a CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/system/src/interrupt.c.o
-                0x0000000000002472                CPUINT_Initialize
+                0x0000000000002404       0x1a CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/system/src/interrupt.c.o
+                0x0000000000002404                CPUINT_Initialize
 
 .text.USART0_printCHAR
-                0x000000000000248c       0x18
+                0x000000000000241e       0x18
  .text.USART0_printCHAR
-                0x000000000000248c       0x18 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/uart/src/usart0.c.o
-                0x000000000000248c                USART0_printCHAR
+                0x000000000000241e       0x18 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/uart/src/usart0.c.o
+                0x000000000000241e                USART0_printCHAR
 
 .text.NVM_Initialize
-                0x00000000000024a4       0x16
+                0x0000000000002436       0x16
  .text.NVM_Initialize
-                0x00000000000024a4       0x16 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/nvm/src/nvm.c.o
-                0x00000000000024a4                NVM_Initialize
+                0x0000000000002436       0x16 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/nvm/src/nvm.c.o
+                0x0000000000002436                NVM_Initialize
 
 .text.libgcc.mul
-                0x00000000000024ba       0x16
+                0x000000000000244c       0x16
  .text.libgcc.mul
-                0x00000000000024ba       0x16 /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/avrxmega2/libgcc.a(_muluhisi3.o)
-                0x00000000000024ba                __muluhisi3
+                0x000000000000244c       0x16 /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/avrxmega2/libgcc.a(_muluhisi3.o)
+                0x000000000000244c                __muluhisi3
 
-.text.exit      0x00000000000024d0       0x16
- .text.exit     0x00000000000024d0       0x16 /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/libc.a(exit.o)
-                0x00000000000024d0                exit
+.text.exit      0x0000000000002462       0x16
+ .text.exit     0x0000000000002462       0x16 /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/libc.a(exit.o)
+                0x0000000000002462                exit
 
-.text.puts      0x00000000000024e6       0x12
- .text.puts     0x00000000000024e6       0x12 /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/libc.a(puts.o)
-                0x00000000000024e6                puts
+.text.puts      0x0000000000002478       0x12
+ .text.puts     0x0000000000002478       0x12 /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/libc.a(puts.o)
+                0x0000000000002478                puts
 
-.text.memset    0x00000000000024f8       0x12
- .text.memset   0x00000000000024f8       0x12 /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/libc.a(memset.o)
-                0x00000000000024f8                memset
+.text.memset    0x000000000000248a       0x12
+ .text.memset   0x000000000000248a       0x12 /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/libc.a(memset.o)
+                0x000000000000248a                memset
 
-.text.toupper   0x000000000000250a       0x12
- .text.toupper  0x000000000000250a       0x12 /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/libc.a(toupper.o)
-                0x000000000000250a                toupper
+.text.toupper   0x000000000000249c       0x12
+ .text.toupper  0x000000000000249c       0x12 /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/libc.a(toupper.o)
+                0x000000000000249c                toupper
 
 .text.DAC0_Initialize
-                0x000000000000251c       0x10
+                0x00000000000024ae       0x10
  .text.DAC0_Initialize
-                0x000000000000251c       0x10 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/dac/src/dac0.c.o
-                0x000000000000251c                DAC0_Initialize
+                0x00000000000024ae       0x10 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/dac/src/dac0.c.o
+                0x00000000000024ae                DAC0_Initialize
 
 .text.VREF_Initialize
-                0x000000000000252c       0x10
+                0x00000000000024be       0x10
  .text.VREF_Initialize
-                0x000000000000252c       0x10 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/vref/src/vref.c.o
-                0x000000000000252c                VREF_Initialize
+                0x00000000000024be       0x10 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/vref/src/vref.c.o
+                0x00000000000024be                VREF_Initialize
 
 .text.libgcc.div
-                0x000000000000253c       0x10
+                0x00000000000024ce       0x10
  .text.libgcc.div
-                0x000000000000253c       0x10 /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/avrxmega2/libgcc.a(_negsi2.o)
-                0x000000000000253c                __negsi2
+                0x00000000000024ce       0x10 /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/avrxmega2/libgcc.a(_negsi2.o)
+                0x00000000000024ce                __negsi2
 
-.text.strcpy    0x000000000000254c       0x10
- .text.strcpy   0x000000000000254c       0x10 /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/libc.a(strcpy.o)
-                0x000000000000254c                strcpy
+.text.strcpy    0x00000000000024de       0x10
+ .text.strcpy   0x00000000000024de       0x10 /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/libc.a(strcpy.o)
+                0x00000000000024de                strcpy
 
-.text.tolower   0x000000000000255c       0x10
- .text.tolower  0x000000000000255c       0x10 /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/libc.a(tolower.o)
-                0x000000000000255c                tolower
+.text.tolower   0x00000000000024ee       0x10
+ .text.tolower  0x00000000000024ee       0x10 /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/libc.a(tolower.o)
+                0x00000000000024ee                tolower
 
 .text.RSTCTRL_SoftwareReset
-                0x000000000000256c        0xe
+                0x00000000000024fe        0xe
  .text.RSTCTRL_SoftwareReset
-                0x000000000000256c        0xe CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/reset/src/rstctrl.c.o
-                0x000000000000256c                RSTCTRL_SoftwareReset
+                0x00000000000024fe        0xe CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/reset/src/rstctrl.c.o
+                0x00000000000024fe                RSTCTRL_SoftwareReset
 
 .text.libgcc.mul
-                0x000000000000257a        0xe
+                0x000000000000250c        0xe
  .text.libgcc.mul
-                0x000000000000257a        0xe /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/avrxmega2/libgcc.a(_usmulhisi3.o)
-                0x000000000000257a                __usmulhisi3
-                0x000000000000257e                __usmulhisi3_tail
+                0x000000000000250c        0xe /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/avrxmega2/libgcc.a(_usmulhisi3.o)
+                0x000000000000250c                __usmulhisi3
+                0x0000000000002510                __usmulhisi3_tail
 
-.text           0x0000000000002588        0xe
- .text          0x0000000000002588        0xe /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/libm.a(fixsfsi.o)
-                0x0000000000002588                __fixsfsi
+.text           0x000000000000251a        0xe
+ .text          0x000000000000251a        0xe /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/libm.a(fixsfsi.o)
+                0x000000000000251a                __fixsfsi
 
-.text           0x0000000000002596        0xe
- .text          0x0000000000002596        0xe /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/libm.a(fp_pscA.o)
-                0x0000000000002596                __fp_pscA
+.text           0x0000000000002528        0xe
+ .text          0x0000000000002528        0xe /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/libm.a(fp_pscA.o)
+                0x0000000000002528                __fp_pscA
 
-.text           0x00000000000025a4        0xe
- .text          0x00000000000025a4        0xe /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/libm.a(fp_pscB.o)
-                0x00000000000025a4                __fp_pscB
+.text           0x0000000000002536        0xe
+ .text          0x0000000000002536        0xe /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/libm.a(fp_pscB.o)
+                0x0000000000002536                __fp_pscB
 
-.text           0x00000000000025b2        0xe
- .text          0x00000000000025b2        0xe /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/libm.a(fp_zero.o)
-                0x00000000000025b2                __fp_zero
-                0x00000000000025b4                __fp_szero
+.text           0x0000000000002544        0xe
+ .text          0x0000000000002544        0xe /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/libm.a(fp_zero.o)
+                0x0000000000002544                __fp_zero
+                0x0000000000002546                __fp_szero
 
-.text           0x00000000000025c0        0xe
- .text          0x00000000000025c0        0xe /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/libm.a(addsf3.o)
-                0x00000000000025c0                __subsf3
-                0x00000000000025c2                __addsf3
+.text           0x0000000000002552        0xe
+ .text          0x0000000000002552        0xe /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/libm.a(addsf3.o)
+                0x0000000000002552                __subsf3
+                0x0000000000002554                __addsf3
 
 .text.myTCA0_OVFCallback
-                0x00000000000025ce        0xc
+                0x0000000000002560        0xc
  .text.myTCA0_OVFCallback
-                0x00000000000025ce        0xc CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/main.c.o
-                0x00000000000025ce                myTCA0_OVFCallback
+                0x0000000000002560        0xc CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/main.c.o
+                0x0000000000002560                myTCA0_OVFCallback
 
 .text.ADC0_Enable
-                0x00000000000025da        0xc
+                0x000000000000256c        0xc
  .text.ADC0_Enable
-                0x00000000000025da        0xc CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/adc/src/adc0.c.o
-                0x00000000000025da                ADC0_Enable
+                0x000000000000256c        0xc CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/adc/src/adc0.c.o
+                0x000000000000256c                ADC0_Enable
 
 .text.ADC0_ConversionStart
-                0x00000000000025e6        0xc
+                0x0000000000002578        0xc
  .text.ADC0_ConversionStart
-                0x00000000000025e6        0xc CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/adc/src/adc0.c.o
-                0x00000000000025e6                ADC0_ConversionStart
+                0x0000000000002578        0xc CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/adc/src/adc0.c.o
+                0x0000000000002578                ADC0_ConversionStart
 
 .text.NVM_StatusClear
-                0x00000000000025f2        0xc
+                0x0000000000002584        0xc
  .text.NVM_StatusClear
-                0x00000000000025f2        0xc CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/nvm/src/nvm.c.o
-                0x00000000000025f2                NVM_StatusClear
+                0x0000000000002584        0xc CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/nvm/src/nvm.c.o
+                0x0000000000002584                NVM_StatusClear
 
 .text.TCA0_Start
-                0x00000000000025fe        0xc
+                0x0000000000002590        0xc
  .text.TCA0_Start
-                0x00000000000025fe        0xc CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/timer/src/tca0.c.o
-                0x00000000000025fe                TCA0_Start
+                0x0000000000002590        0xc CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/timer/src/tca0.c.o
+                0x0000000000002590                TCA0_Start
 
 .text.USART0_IsTxReady
-                0x000000000000260a        0xc
+                0x000000000000259c        0xc
  .text.USART0_IsTxReady
-                0x000000000000260a        0xc CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/uart/src/usart0.c.o
-                0x000000000000260a                USART0_IsTxReady
+                0x000000000000259c        0xc CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/uart/src/usart0.c.o
+                0x000000000000259c                USART0_IsTxReady
 
-.text           0x0000000000002616        0xc
- .text          0x0000000000002616        0xc /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/libm.a(fp_inf.o)
-                0x0000000000002616                __fp_inf
+.text           0x00000000000025a8        0xc
+ .text          0x00000000000025a8        0xc /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/libm.a(fp_inf.o)
+                0x00000000000025a8                __fp_inf
 
 .text.ADC0_ConversionResultGet
-                0x0000000000002622        0xa
+                0x00000000000025b4        0xa
  .text.ADC0_ConversionResultGet
-                0x0000000000002622        0xa CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/adc/src/adc0.c.o
-                0x0000000000002622                ADC0_ConversionResultGet
+                0x00000000000025b4        0xa CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/adc/src/adc0.c.o
+                0x00000000000025b4                ADC0_ConversionResultGet
 
 .text.ADC0_ConversionDoneCallbackRegister
-                0x000000000000262c        0xa
+                0x00000000000025be        0xa
  .text.ADC0_ConversionDoneCallbackRegister
-                0x000000000000262c        0xa CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/adc/src/adc0.c.o
-                0x000000000000262c                ADC0_ConversionDoneCallbackRegister
-
-.text.EEPROM_IsBusy
-                0x0000000000002636        0xa
- .text.EEPROM_IsBusy
-                0x0000000000002636        0xa CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/nvm/src/nvm.c.o
-                0x0000000000002636                EEPROM_IsBusy
+                0x00000000000025be        0xa CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/adc/src/adc0.c.o
+                0x00000000000025be                ADC0_ConversionDoneCallbackRegister
 
 .text.IO_PF6_SetInterruptHandler
-                0x0000000000002640        0xa
+                0x00000000000025c8        0xa
  .text.IO_PF6_SetInterruptHandler
-                0x0000000000002640        0xa CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/system/src/pins.c.o
-                0x0000000000002640                IO_PF6_SetInterruptHandler
+                0x00000000000025c8        0xa CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/system/src/pins.c.o
+                0x00000000000025c8                IO_PF6_SetInterruptHandler
 
 .text.__vector_29
-                0x000000000000264a        0xa
+                0x00000000000025d2        0xa
  .text.__vector_29
-                0x000000000000264a        0xa CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/system/src/pins.c.o
-                0x000000000000264a                __vector_29
+                0x00000000000025d2        0xa CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/system/src/pins.c.o
+                0x00000000000025d2                __vector_29
 
 .text.TCA0_OverflowCallbackRegister
-                0x0000000000002654        0xa
+                0x00000000000025dc        0xa
  .text.TCA0_OverflowCallbackRegister
-                0x0000000000002654        0xa CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/timer/src/tca0.c.o
-                0x0000000000002654                TCA0_OverflowCallbackRegister
+                0x00000000000025dc        0xa CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/timer/src/tca0.c.o
+                0x00000000000025dc                TCA0_OverflowCallbackRegister
 
-.text           0x000000000000265e        0xa
- .text          0x000000000000265e        0xa /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/libm.a(cmpsf2.o)
-                0x000000000000265e                __lesf2
-                0x000000000000265e                __nesf2
-                0x000000000000265e                __eqsf2
-                0x000000000000265e                __cmpsf2
-                0x000000000000265e                __ltsf2
+.text           0x00000000000025e6        0xa
+ .text          0x00000000000025e6        0xa /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/libm.a(cmpsf2.o)
+                0x00000000000025e6                __lesf2
+                0x00000000000025e6                __nesf2
+                0x00000000000025e6                __eqsf2
+                0x00000000000025e6                __cmpsf2
+                0x00000000000025e6                __ltsf2
 
-.text           0x0000000000002668        0xa
- .text          0x0000000000002668        0xa /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/libm.a(gesf2.o)
-                0x0000000000002668                __gtsf2
-                0x0000000000002668                __gesf2
+.text           0x00000000000025f0        0xa
+ .text          0x00000000000025f0        0xa /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/libm.a(gesf2.o)
+                0x00000000000025f0                __gtsf2
+                0x00000000000025f0                __gesf2
 
 .text.protected_write_io
-                0x0000000000002672        0x8
+                0x00000000000025fa        0x8
  .text.protected_write_io
-                0x0000000000002672        0x8 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_assemblePreprocess.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/system/src/protected_io.S.o
-                0x0000000000002672                protected_write_io
+                0x00000000000025fa        0x8 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_assemblePreprocess.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/system/src/protected_io.S.o
+                0x00000000000025fa                protected_write_io
 
-.text           0x000000000000267a        0x8
- .text          0x000000000000267a        0x8 /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/libm.a(divsf3.o)
-                0x000000000000267a                __divsf3
+.text           0x0000000000002602        0x8
+ .text          0x0000000000002602        0x8 /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/libm.a(divsf3.o)
+                0x0000000000002602                __divsf3
 
-.text           0x0000000000002682        0x8
- .text          0x0000000000002682        0x8 /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/libm.a(mulsf3.o)
-                0x0000000000002682                __mulsf3
+.text           0x000000000000260a        0x8
+ .text          0x000000000000260a        0x8 /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/libm.a(mulsf3.o)
+                0x000000000000260a                __mulsf3
 
 .text.my_IO_PF6_SetInterruptHandler
-                0x000000000000268a        0x6
+                0x0000000000002612        0x6
  .text.my_IO_PF6_SetInterruptHandler
-                0x000000000000268a        0x6 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/main.c.o
-                0x000000000000268a                my_IO_PF6_SetInterruptHandler
+                0x0000000000002612        0x6 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/main.c.o
+                0x0000000000002612                my_IO_PF6_SetInterruptHandler
 
 .text.EEPROM_Read
-                0x0000000000002690        0x6
+                0x0000000000002618        0x6
  .text.EEPROM_Read
-                0x0000000000002690        0x6 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/nvm/src/nvm.c.o
-                0x0000000000002690                EEPROM_Read
+                0x0000000000002618        0x6 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/nvm/src/nvm.c.o
+                0x0000000000002618                EEPROM_Read
 
-.text           0x0000000000002696        0x6
- .text          0x0000000000002696        0x6 /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/libm.a(fp_nan.o)
-                0x0000000000002696                __fp_nan
+.text           0x000000000000261e        0x6
+ .text          0x000000000000261e        0x6 /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/libm.a(fp_nan.o)
+                0x000000000000261e                __fp_nan
 
-.text           0x000000000000269c        0x4
- .text          0x000000000000269c        0x4 /home/probe-5028/.mchp_packs/Microchip/AVR-Dx_DFP/2.7.321/xc8/avr/lib/avrxmega2/crtavr64dd32.o
-                0x000000000000269c                __vector_22
-                0x000000000000269c                __vector_28
-                0x000000000000269c                __vector_1
-                0x000000000000269c                __vector_32
-                0x000000000000269c                __bad_interrupt
-                0x000000000000269c                __vector_6
-                0x000000000000269c                __vector_31
-                0x000000000000269c                __vector_35
-                0x000000000000269c                __vector_3
-                0x000000000000269c                __vector_23
-                0x000000000000269c                __vector_30
-                0x000000000000269c                __vector_25
-                0x000000000000269c                __vector_17
-                0x000000000000269c                __vector_19
-                0x000000000000269c                __vector_7
-                0x000000000000269c                __vector_5
-                0x000000000000269c                __vector_33
-                0x000000000000269c                __vector_4
-                0x000000000000269c                __vector_2
-                0x000000000000269c                __vector_21
-                0x000000000000269c                __vector_15
-                0x000000000000269c                __vector_14
-                0x000000000000269c                __vector_10
-                0x000000000000269c                __vector_16
-                0x000000000000269c                __vector_18
-                0x000000000000269c                __vector_20
+.text           0x0000000000002624        0x4
+ .text          0x0000000000002624        0x4 /home/probe-5028/.mchp_packs/Microchip/AVR-Dx_DFP/2.7.321/xc8/avr/lib/avrxmega2/crtavr64dd32.o
+                0x0000000000002624                __vector_22
+                0x0000000000002624                __vector_28
+                0x0000000000002624                __vector_1
+                0x0000000000002624                __vector_32
+                0x0000000000002624                __bad_interrupt
+                0x0000000000002624                __vector_6
+                0x0000000000002624                __vector_31
+                0x0000000000002624                __vector_35
+                0x0000000000002624                __vector_3
+                0x0000000000002624                __vector_23
+                0x0000000000002624                __vector_30
+                0x0000000000002624                __vector_25
+                0x0000000000002624                __vector_17
+                0x0000000000002624                __vector_19
+                0x0000000000002624                __vector_7
+                0x0000000000002624                __vector_5
+                0x0000000000002624                __vector_33
+                0x0000000000002624                __vector_4
+                0x0000000000002624                __vector_2
+                0x0000000000002624                __vector_21
+                0x0000000000002624                __vector_15
+                0x0000000000002624                __vector_14
+                0x0000000000002624                __vector_10
+                0x0000000000002624                __vector_16
+                0x0000000000002624                __vector_18
+                0x0000000000002624                __vector_20
 
-.text._Exit     0x00000000000026a0        0x4
- .text._Exit    0x00000000000026a0        0x4 /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/libc.a(_Exit.o)
-                0x00000000000026a0                _Exit
+.text._Exit     0x0000000000002628        0x4
+ .text._Exit    0x0000000000002628        0x4 /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/libc.a(_Exit.o)
+                0x0000000000002628                _Exit
 
 .text.IO_PD5_DefaultInterruptHandler
-                0x00000000000026a4        0x2
+                0x000000000000262c        0x2
  .text.IO_PD5_DefaultInterruptHandler
-                0x00000000000026a4        0x2 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/system/src/pins.c.o
-                0x00000000000026a4                IO_PD5_DefaultInterruptHandler
+                0x000000000000262c        0x2 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/system/src/pins.c.o
+                0x000000000000262c                IO_PD5_DefaultInterruptHandler
 
 .text.IO_PD4_DefaultInterruptHandler
-                0x00000000000026a6        0x2
+                0x000000000000262e        0x2
  .text.IO_PD4_DefaultInterruptHandler
-                0x00000000000026a6        0x2 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/system/src/pins.c.o
-                0x00000000000026a6                IO_PD4_DefaultInterruptHandler
+                0x000000000000262e        0x2 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/system/src/pins.c.o
+                0x000000000000262e                IO_PD4_DefaultInterruptHandler
 
 .text.IO_PA7_DefaultInterruptHandler
-                0x00000000000026a8        0x2
+                0x0000000000002630        0x2
  .text.IO_PA7_DefaultInterruptHandler
-                0x00000000000026a8        0x2 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/system/src/pins.c.o
-                0x00000000000026a8                IO_PA7_DefaultInterruptHandler
+                0x0000000000002630        0x2 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/system/src/pins.c.o
+                0x0000000000002630                IO_PA7_DefaultInterruptHandler
 
 .text.IO_PD6_DefaultInterruptHandler
-                0x00000000000026aa        0x2
+                0x0000000000002632        0x2
  .text.IO_PD6_DefaultInterruptHandler
-                0x00000000000026aa        0x2 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/system/src/pins.c.o
-                0x00000000000026aa                IO_PD6_DefaultInterruptHandler
+                0x0000000000002632        0x2 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/system/src/pins.c.o
+                0x0000000000002632                IO_PD6_DefaultInterruptHandler
 
 .text.IO_PF4_DefaultInterruptHandler
-                0x00000000000026ac        0x2
+                0x0000000000002634        0x2
  .text.IO_PF4_DefaultInterruptHandler
-                0x00000000000026ac        0x2 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/system/src/pins.c.o
-                0x00000000000026ac                IO_PF4_DefaultInterruptHandler
+                0x0000000000002634        0x2 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/system/src/pins.c.o
+                0x0000000000002634                IO_PF4_DefaultInterruptHandler
 
 .text.IO_PF6_DefaultInterruptHandler
-                0x00000000000026ae        0x2
+                0x0000000000002636        0x2
  .text.IO_PF6_DefaultInterruptHandler
-                0x00000000000026ae        0x2 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/system/src/pins.c.o
-                0x00000000000026ae                IO_PF6_DefaultInterruptHandler
+                0x0000000000002636        0x2 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/system/src/pins.c.o
+                0x0000000000002636                IO_PF6_DefaultInterruptHandler
 
 .text.IO_PF5_DefaultInterruptHandler
-                0x00000000000026b0        0x2
+                0x0000000000002638        0x2
  .text.IO_PF5_DefaultInterruptHandler
-                0x00000000000026b0        0x2 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/system/src/pins.c.o
-                0x00000000000026b0                IO_PF5_DefaultInterruptHandler
+                0x0000000000002638        0x2 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/system/src/pins.c.o
+                0x0000000000002638                IO_PF5_DefaultInterruptHandler
 
 .text.USART0_DefaultFramingErrorCallback
-                0x00000000000026b2        0x2
+                0x000000000000263a        0x2
  .text.USART0_DefaultFramingErrorCallback
-                0x00000000000026b2        0x2 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/uart/src/usart0.c.o
+                0x000000000000263a        0x2 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/uart/src/usart0.c.o
 
 .text.USART0_DefaultOverrunErrorCallback
-                0x00000000000026b4        0x2
+                0x000000000000263c        0x2
  .text.USART0_DefaultOverrunErrorCallback
-                0x00000000000026b4        0x2 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/uart/src/usart0.c.o
+                0x000000000000263c        0x2 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/uart/src/usart0.c.o
 
 .text.USART0_DefaultParityErrorCallback
-                0x00000000000026b6        0x2
+                0x000000000000263e        0x2
  .text.USART0_DefaultParityErrorCallback
-                0x00000000000026b6        0x2 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/uart/src/usart0.c.o
+                0x000000000000263e        0x2 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/uart/src/usart0.c.o
 
 .text.__dummy_fini
-                0x00000000000026b8        0x2
+                0x0000000000002640        0x2
  .text.__dummy_fini
-                0x00000000000026b8        0x2 /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/libc.a(exit.o)
-                0x00000000000026b8                _fini
+                0x0000000000002640        0x2 /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/libc.a(exit.o)
+                0x0000000000002640                _fini
 
 .text.__dummy_funcs_on_exit
-                0x00000000000026ba        0x2
+                0x0000000000002642        0x2
  .text.__dummy_funcs_on_exit
-                0x00000000000026ba        0x2 /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/libc.a(exit.o)
-                0x00000000000026ba                __funcs_on_exit
+                0x0000000000002642        0x2 /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/libc.a(exit.o)
+                0x0000000000002642                __funcs_on_exit
 
 .text.__dummy_simulator_exit
-                0x00000000000026bc        0x2
+                0x0000000000002644        0x2
  .text.__dummy_simulator_exit
-                0x00000000000026bc        0x2 /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/libc.a(exit.o)
-                0x00000000000026bc                __simulator_exit
+                0x0000000000002644        0x2 /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/libc.a(exit.o)
+                0x0000000000002644                __simulator_exit
 
-.rodata         0x000000000080600e       0x9d load address 0x00000000000026be
- .rodata        0x000000000080600e       0x9d CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/main.c.o
+.rodata         0x000000000080600e       0xa0 load address 0x0000000000002646
+ .rodata        0x000000000080600e       0xa0 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/main.c.o
 
 .rodata.state_table
-                0x00000000008060ab       0x16 load address 0x000000000000275b
+                0x00000000008060ae       0x16 load address 0x00000000000026e6
  .rodata.state_table
-                0x00000000008060ab       0x16 /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/libc.a(__printf_core.o)
+                0x00000000008060ae       0x16 /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/libc.a(__printf_core.o)
 
 .data.USART0_stream
-                0x00000000008060c1       0x10 load address 0x0000000000002771
+                0x00000000008060c4       0x10 load address 0x00000000000026fc
  .data.USART0_stream
-                0x00000000008060c1       0x10 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/uart/src/usart0.c.o
-                0x00000000008060c1                USART0_stream
+                0x00000000008060c4       0x10 CMakeFiles/probe_5028_devkit_firmware_default_default_XC8_compile.dir/home/probe-5028/MPLABProjects/probe-5028-devkit-firmware/My_MCC_Config/mcc/mcc_generated_files/uart/src/usart0.c.o
+                0x00000000008060c4                USART0_stream
 
-.rodata         0x00000000008060d1       0x10 load address 0x0000000000002781
- .rodata        0x00000000008060d1       0x10 /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/libc.a(__fmt_fp.o)
+.rodata         0x00000000008060d4       0x10 load address 0x000000000000270c
+ .rodata        0x00000000008060d4       0x10 /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/libc.a(__fmt_fp.o)
 
 .rodata.nuls.2781
-                0x00000000008060e1        0x7 load address 0x0000000000002791
+                0x00000000008060e4        0x7 load address 0x000000000000271c
  .rodata.nuls.2781
-                0x00000000008060e1        0x7 /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/libc.a(__fmt_s.o)
+                0x00000000008060e4        0x7 /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/libc.a(__fmt_s.o)
 
 .rodata.nilstr.2962
-                0x00000000008060e8        0x6 load address 0x0000000000002798
+                0x00000000008060eb        0x6 load address 0x0000000000002723
  .rodata.nilstr.2962
-                0x00000000008060e8        0x6 /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/libc.a(__printf_core.o)
+                0x00000000008060eb        0x6 /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/libc.a(__printf_core.o)
 
-.data._stdout   0x0000000000806110        0x2 load address 0x000000000000279e
- .data._stdout  0x0000000000806110        0x2 /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/libc.a(stdout.o)
-                0x0000000000806110                _stdout
+.data._stdout   0x0000000000806113        0x2 load address 0x0000000000002729
+ .data._stdout  0x0000000000806113        0x2 /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/libc.a(stdout.o)
+                0x0000000000806113                _stdout

@@ -36,9 +36,11 @@
 #include "mcc_generated_files/adc/adc_types.h"
 #include "mcc_generated_files/dac/dac0.h"
 #include "mcc_generated_files/nvm/nvm.h"
+#include "mcc_generated_files/system/ccp.h"
 #include "mcc_generated_files/system/pins.h"
 #include "mcc_generated_files/system/system.h"
 #include "mcc_generated_files/timer/tca0.h"
+#include <avr/io.h>
 
 /*
     Main application
@@ -49,6 +51,7 @@
 #define DAC_RESOLUTION 1023L
 #define ADC_RESOLUTION 4095L
 #define NUM_READINGS 2
+#define EEPROM_START_ADDR 0x1400
 
 
 struct sensor_reading_t{
@@ -113,6 +116,41 @@ dac_resolution_t intVoltageToCounts(int16_t voltage)
     return DAC_Counts;
 }
 
+void EEPROM_Erase()
+{
+    //Erase entire EEPROM 
+    ccp_write_spm((void *) &NVMCTRL.CTRLA, NVMCTRL_CMD_EECHER_gc);
+
+    //Clear the current command
+    ccp_write_spm((void *) &NVMCTRL.CTRLA, NVMCTRL_CMD_NONE_gc);
+}
+
+
+//Writes bytes to EEPROM in sequential order starting at a given address
+void EEPROM_Write_Bytes(eeprom_address_t starting_address, eeprom_data_t *bytes, uint8_t num_bytes) 
+{
+    for(eeprom_address_t i = 0; i < num_bytes; i++)
+    {
+        EEPROM_Write(EEPROM_START_ADDR + starting_address + i, bytes[i]);
+        while(EEPROM_IsBusy());
+        if(NVM_StatusGet() != NVM_OK)
+        {
+            NVM_StatusClear();
+            printf("EEPROM Write FAILED\n\r");
+        }
+    }
+}
+
+//Reads bytes from the EEPROM starting at a specfic address
+void EEPROM_Read_bytes(eeprom_address_t starting_address)
+{
+    for(eeprom_address_t i = starting_address; i < 256; i++)
+    {
+        eeprom_data_t read_data = EEPROM_Read(EEPROM_START_ADDR + i);
+        printf("EEPROM DATA at addr %u: %x\n\r", i, read_data); 
+    }
+}
+
 eeprom_data_t randData()
 {
     uint8_t lsb = lfsr8 & 1;
@@ -128,35 +166,15 @@ int main(void)
 {
     SYSTEM_Initialize();
     IO_PF6_SetInterruptHandler(my_IO_PF6_SetInterruptHandler);
+    TCA0_OverflowCallbackRegister(myTCA0_OVFCallback);
+    ADC0_ConversionDoneCallbackRegister(myADC0_ConversionDoneCallback);
     
     
     eeprom_data_t write_data[4] = {0xDE, 0xAD, 0xBE, 0xEF};
-    eeprom_address_t write_addr = 0;
-    for(int i = 0; i < 4; i++)
-    {
-        printf("Writing %x to %u\n\r", write_data[i], write_addr);
-        EEPROM_Write(write_addr, write_data[i]);
-        while(EEPROM_IsBusy());
-        write_addr++;
-    }
-    
-    //eeprom_address_t read_addr = 0;
-    //eeprom_data_t read_data = EEPROM_Read(read_addr);
-    //printf("%x\n\r", read_data);
-    //EEPROM Writing testing
-    while(EEPROM_IsBusy());
+    //EEPROM_Write_Bytes(252, write_data, 4);
 
-    eeprom_address_t read_addr = 0; 
-    for(uint8_t i = 0; i < 4; i++)
-    {
-        eeprom_data_t read_data = EEPROM_Read(read_addr);
-        printf("EEPROM DATA at addr %u: %x\n\r", read_addr, read_data); 
-        read_addr++;
-    }
 
-    
-    
-    
+    EEPROM_Read_bytes(200);
 
     for(int i = 0; i < NUM_READINGS; i++)
     {
@@ -166,8 +184,7 @@ int main(void)
         readings[i].update_dac = false;
     }
     printf("Program Starting \r\n");
-    TCA0_OverflowCallbackRegister(myTCA0_OVFCallback);
-    ADC0_ConversionDoneCallbackRegister(myADC0_ConversionDoneCallback);
+    
 
     ADC0_Enable();
     TCA0_Start();
