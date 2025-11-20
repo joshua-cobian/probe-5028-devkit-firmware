@@ -142,15 +142,22 @@ void EEPROM_Write_Bytes(eeprom_address_t starting_address, eeprom_data_t *bytes,
 }
 
 //Reads bytes from the EEPROM starting at a specfic address
-void EEPROM_Read_bytes(eeprom_address_t starting_address)
+void EEPROM_Read_bytes(eeprom_address_t starting_address, eeprom_address_t ending_address, eeprom_data_t* bytes, int* num_bytes)
 {
-    for(eeprom_address_t i = starting_address; i < 256; i++)
+    *num_bytes = 0; 
+    for(eeprom_address_t i = starting_address; i < ending_address; i++)
     {
         eeprom_data_t read_data = EEPROM_Read(EEPROM_START_ADDR + i);
-        printf("EEPROM DATA at addr %u: %x\n\r", i, read_data); 
+        bytes[i - starting_address] = read_data;
+        (*num_bytes)++;
     }
 }
 
+/**
+ * @brief 
+ * 
+ * @return eeprom_data_t 
+ */
 eeprom_data_t randData()
 {
     uint8_t lsb = lfsr8 & 1;
@@ -171,10 +178,17 @@ int main(void)
     
     
     eeprom_data_t write_data[4] = {0xDE, 0xAD, 0xBE, 0xEF};
-    //EEPROM_Write_Bytes(252, write_data, 4);
+    //EEPROM_Write_Bytes(242, write_data, 4);
 
 
-    EEPROM_Read_bytes(200);
+    eeprom_data_t buff[256];
+    int buff_size; 
+    EEPROM_Read_bytes(200, 256, buff, &buff_size);
+
+    for(int i = 0; i < buff_size; i++)
+    {
+        printf("eeprom data at %d is %x\n\r", i + 200, buff[i]);
+    }
 
     for(int i = 0; i < NUM_READINGS; i++)
     {

@@ -33,7 +33,8 @@
             "name": "default-tool-base",
             "type": "tool",
             "properties": {
-                "programoptions.preserveeeprom": true
+                "programoptions.preserveeeprom": true,
+                "programoptions.preserveeeprom.ranges": "0-ff"
             }
         }
     ],
