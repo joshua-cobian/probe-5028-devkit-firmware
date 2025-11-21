@@ -33,7 +33,9 @@ if(WIN32 AND NOT COMPILER_IS_LONG_PATH_AWARE)
         RESULT LONG_PATHS_ENABLED
         QUERY WINDOWS_REGISTRY "HKEY_LOCAL_MACHINE/SYSTEM/CurrentControlSet/Control/FileSystem"
         VALUE "LongPathsEnabled")
-    if(${LONG_PATHS_ENABLED} STREQUAL "1")
+    if(${CMAKE_MAKE_PROGRAM} MATCHES ".*(make|make.exe)")
+        message(STATUS "Make does not work well with long paths, leaving it low")
+    elseif(${LONG_PATHS_ENABLED} STREQUAL "1")
         set(CMAKE_C_COMPILER_EXE_MANIFEST_FILE "${CMAKE_C_COMPILER}.manifest")
         if(EXISTS "${CMAKE_C_COMPILER_EXE_MANIFEST_FILE}")
             file( READ "${CMAKE_C_COMPILER_EXE_MANIFEST_FILE}" CMAKE_C_COMPILER_EXE_MANIFEST)

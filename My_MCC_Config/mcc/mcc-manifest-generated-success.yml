@@ -2,7 +2,7 @@
 
 manifest_file_version: 1.0.0
 project: N/A
-creation_date: 2025-11-19T15:04:12.156-05:00[America/New_York]
+creation_date: 2025-11-21T14:17:56.181-05:00[America/New_York]
 operating_system: Linux
 mcc_mode: VSCodePlugin
 mcc_mode_version: Unknown
@@ -29,6 +29,7 @@ modules:
 - {name: '@mchp-mcc/scf-avr8-memory-v1', type: MELODY, version: 7.1.0}
 - {name: '@mchp-mcc/scf-avr8-rstctrl-v1', type: MELODY, version: 4.1.0}
 - {name: '@mchp-mcc/scf-avr8-tca-v1', type: MELODY, version: 7.1.0}
+- {name: '@mchp-mcc/scf-avr8-tcb-v1', type: MELODY, version: 6.1.1}
 - {name: '@mchp-mcc/scf-avr8-usart-v1', type: MELODY, version: 10.3.1}
 - {name: '@mchp-mcc/scf-avr8-vref-v1', type: MELODY, version: 4.1.0}
 - {name: '@mchp-mcc/uart-driver', type: MELODY, version: 1.10.2}

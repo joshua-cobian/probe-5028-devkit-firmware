@@ -9,6 +9,7 @@ if(probe_5028_devkit_firmware_default_default_XC8_FILE_TYPE_assemble)
 add_library(probe_5028_devkit_firmware_default_default_XC8_assemble OBJECT ${probe_5028_devkit_firmware_default_default_XC8_FILE_TYPE_assemble})
     probe_5028_devkit_firmware_default_default_XC8_assemble_rule(probe_5028_devkit_firmware_default_default_XC8_assemble)
     list(APPEND probe_5028_devkit_firmware_default_library_list "$<TARGET_OBJECTS:probe_5028_devkit_firmware_default_default_XC8_assemble>")
+
 endif()
 
 # Handle files with suffix S, for group default-XC8
@@ -16,6 +17,7 @@ if(probe_5028_devkit_firmware_default_default_XC8_FILE_TYPE_assemblePreprocess)
 add_library(probe_5028_devkit_firmware_default_default_XC8_assemblePreprocess OBJECT ${probe_5028_devkit_firmware_default_default_XC8_FILE_TYPE_assemblePreprocess})
     probe_5028_devkit_firmware_default_default_XC8_assemblePreprocess_rule(probe_5028_devkit_firmware_default_default_XC8_assemblePreprocess)
     list(APPEND probe_5028_devkit_firmware_default_library_list "$<TARGET_OBJECTS:probe_5028_devkit_firmware_default_default_XC8_assemblePreprocess>")
+
 endif()
 
 # Handle files with suffix [cC], for group default-XC8
@@ -23,8 +25,11 @@ if(probe_5028_devkit_firmware_default_default_XC8_FILE_TYPE_compile)
 add_library(probe_5028_devkit_firmware_default_default_XC8_compile OBJECT ${probe_5028_devkit_firmware_default_default_XC8_FILE_TYPE_compile})
     probe_5028_devkit_firmware_default_default_XC8_compile_rule(probe_5028_devkit_firmware_default_default_XC8_compile)
     list(APPEND probe_5028_devkit_firmware_default_library_list "$<TARGET_OBJECTS:probe_5028_devkit_firmware_default_default_XC8_compile>")
+
 endif()
 
+
+# Main target for this project
 add_executable(probe_5028_devkit_firmware_default_image_M4BM5_Pw ${probe_5028_devkit_firmware_default_library_list})
 
 set_target_properties(probe_5028_devkit_firmware_default_image_M4BM5_Pw PROPERTIES RUNTIME_OUTPUT_DIRECTORY ${probe_5028_devkit_firmware_default_output_dir})

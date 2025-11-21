@@ -41,6 +41,7 @@ void SYSTEM_Initialize(void)
     PIN_MANAGER_Initialize();
     ADC0_Initialize();
     TCA0_Initialize();
+    TCB0_Initialize();
     DAC0_Initialize();
     NVM_Initialize();
     USART0_Initialize();

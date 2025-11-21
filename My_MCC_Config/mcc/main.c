@@ -47,7 +47,8 @@
 */
 
 #define SCALING_FACTOR 1000L //If changing scaling factor make sure to change VDD to match
-#define VDD 3300L
+#define FAST_SCALING_FACTOR 1024L
+#define VDD (33 * (SCALING_FACTOR / 10))
 #define DAC_RESOLUTION 1023L
 #define ADC_RESOLUTION 4095L
 #define NUM_READINGS 2
@@ -89,8 +90,9 @@ void myTCA0_OVFCallback(void)
 
 void floatCountsToVoltage(adc_result_t counts) 
 {
-    int32_t voltage = 3.3 * (counts / 4095.0f);
-    printf("Result is %d, and Voltage is %f", counts, voltage);
+    int16_t voltage = 3.3 * (counts / 4095.0f);
+    readings[0].voltage = (int16_t) voltage;
+    readings[0].update_dac = true;
 }
 
 
@@ -104,6 +106,17 @@ void intCountsToVoltage(adc_result_t counts, uint8_t currReading)
     readings[currReading].voltage = (int16_t) Voltage;
     readings[currReading].update_dac = true;
     //printf("%ld\n\r", readings[currReading].voltage);
+}
+
+void fastintCountsToVoltage(adc_result_t counts, uint8_t currReading)
+{
+    int32_t scaled_counts = counts * FAST_SCALING_FACTOR;
+    int32_t counts_fraction = scaled_counts / ADC_RESOLUTION;
+    int32_t scaled_voltage = VDD * counts_fraction;
+    int32_t Voltage = scaled_voltage / (FAST_SCALING_FACTOR);    
+    //printf("%d:%ld:%ld:%ld\n\r", readings[currReading].counts, scaled_counts, counts_fraction, scaled_voltage);
+    readings[currReading].voltage = (int16_t) Voltage;
+    readings[currReading].update_dac = true;
 }
 
 //Converts 16bit voltage to 10-bit counts value for DAC

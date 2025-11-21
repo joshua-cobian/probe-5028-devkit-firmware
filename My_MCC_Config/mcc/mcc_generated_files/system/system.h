@@ -52,6 +52,7 @@ extern "C" {
 #include "../reset/rstctrl.h"
 #include "../adc/adc0.h"
 #include "../timer/tca0.h"
+#include "../timer/tcb0.h"
 /**
  * @ingroup systemdriver
  * @brief Initializes the System module. This routine is called only once during system initialization, before calling any other API.

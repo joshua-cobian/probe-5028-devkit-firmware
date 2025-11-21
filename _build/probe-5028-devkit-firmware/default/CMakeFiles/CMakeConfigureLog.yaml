@@ -5,7 +5,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/home/probe-5028/.mplab/app-finder/apps/cmake/v4.1.2/cmake-4.1.2-linux-x86_64/share/cmake-4.1/Modules/CMakeDetermineSystem.cmake:12 (find_program)"
-      - "CMakeLists.txt:17 (project)"
+      - "CMakeLists.txt:13 (project)"
     mode: "program"
     variable: "CMAKE_UNAME"
     description: "Path to a program."
@@ -59,7 +59,7 @@ events:
     kind: "message-v1"
     backtrace:
       - "/home/probe-5028/.mplab/app-finder/apps/cmake/v4.1.2/cmake-4.1.2-linux-x86_64/share/cmake-4.1/Modules/CMakeDetermineSystem.cmake:207 (message)"
-      - "CMakeLists.txt:17 (project)"
+      - "CMakeLists.txt:13 (project)"
     message: |
       The target system is: Generic -  - 
       The host system is: Linux - 6.14.0-35-generic - x86_64
@@ -67,7 +67,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/home/probe-5028/.mplab/app-finder/apps/cmake/v4.1.2/cmake-4.1.2-linux-x86_64/share/cmake-4.1/Modules/CMakeNinjaFindMake.cmake:5 (find_program)"
-      - "CMakeLists.txt:17 (project)"
+      - "CMakeLists.txt:13 (project)"
     mode: "program"
     variable: "CMAKE_MAKE_PROGRAM"
     description: "Program used to build from build.ninja files."
@@ -122,7 +122,7 @@ events:
       - "/home/probe-5028/.mplab/app-finder/apps/cmake/v4.1.2/cmake-4.1.2-linux-x86_64/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
       - "/home/probe-5028/.mplab/app-finder/apps/cmake/v4.1.2/cmake-4.1.2-linux-x86_64/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
       - "/home/probe-5028/.mplab/app-finder/apps/cmake/v4.1.2/cmake-4.1.2-linux-x86_64/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt:17 (project)"
+      - "CMakeLists.txt:13 (project)"
     mode: "file"
     variable: "src_in"
     description: "Path to a file."
@@ -160,7 +160,7 @@ events:
       - "/home/probe-5028/.mplab/app-finder/apps/cmake/v4.1.2/cmake-4.1.2-linux-x86_64/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
       - "/home/probe-5028/.mplab/app-finder/apps/cmake/v4.1.2/cmake-4.1.2-linux-x86_64/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
       - "/home/probe-5028/.mplab/app-finder/apps/cmake/v4.1.2/cmake-4.1.2-linux-x86_64/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt:17 (project)"
+      - "CMakeLists.txt:13 (project)"
     message: |
       Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
       Compiler: /opt/microchip/xc8/v3.10/bin/xc8-cc 
@@ -180,7 +180,7 @@ events:
       - "/home/probe-5028/.mplab/app-finder/apps/cmake/v4.1.2/cmake-4.1.2-linux-x86_64/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
       - "/home/probe-5028/.mplab/app-finder/apps/cmake/v4.1.2/cmake-4.1.2-linux-x86_64/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
       - "/home/probe-5028/.mplab/app-finder/apps/cmake/v4.1.2/cmake-4.1.2-linux-x86_64/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt:17 (project)"
+      - "CMakeLists.txt:13 (project)"
     mode: "file"
     variable: "src_in"
     description: "Path to a file."
@@ -218,7 +218,7 @@ events:
       - "/home/probe-5028/.mplab/app-finder/apps/cmake/v4.1.2/cmake-4.1.2-linux-x86_64/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
       - "/home/probe-5028/.mplab/app-finder/apps/cmake/v4.1.2/cmake-4.1.2-linux-x86_64/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
       - "/home/probe-5028/.mplab/app-finder/apps/cmake/v4.1.2/cmake-4.1.2-linux-x86_64/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt:17 (project)"
+      - "CMakeLists.txt:13 (project)"
     message: |
       Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
       Compiler: /opt/microchip/xc8/v3.10/bin/xc8-cc 
@@ -238,7 +238,7 @@ events:
       - "/home/probe-5028/.mplab/app-finder/apps/cmake/v4.1.2/cmake-4.1.2-linux-x86_64/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
       - "/home/probe-5028/.mplab/app-finder/apps/cmake/v4.1.2/cmake-4.1.2-linux-x86_64/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
       - "/home/probe-5028/.mplab/app-finder/apps/cmake/v4.1.2/cmake-4.1.2-linux-x86_64/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt:17 (project)"
+      - "CMakeLists.txt:13 (project)"
     mode: "file"
     variable: "src_in"
     description: "Path to a file."
@@ -276,7 +276,7 @@ events:
       - "/home/probe-5028/.mplab/app-finder/apps/cmake/v4.1.2/cmake-4.1.2-linux-x86_64/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
       - "/home/probe-5028/.mplab/app-finder/apps/cmake/v4.1.2/cmake-4.1.2-linux-x86_64/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
       - "/home/probe-5028/.mplab/app-finder/apps/cmake/v4.1.2/cmake-4.1.2-linux-x86_64/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt:17 (project)"
+      - "CMakeLists.txt:13 (project)"
     message: |
       Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
       Compiler: /opt/microchip/xc8/v3.10/bin/xc8-cc 
@@ -296,7 +296,7 @@ events:
       - "/home/probe-5028/.mplab/app-finder/apps/cmake/v4.1.2/cmake-4.1.2-linux-x86_64/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
       - "/home/probe-5028/.mplab/app-finder/apps/cmake/v4.1.2/cmake-4.1.2-linux-x86_64/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
       - "/home/probe-5028/.mplab/app-finder/apps/cmake/v4.1.2/cmake-4.1.2-linux-x86_64/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt:17 (project)"
+      - "CMakeLists.txt:13 (project)"
     mode: "file"
     variable: "src_in"
     description: "Path to a file."
@@ -334,7 +334,7 @@ events:
       - "/home/probe-5028/.mplab/app-finder/apps/cmake/v4.1.2/cmake-4.1.2-linux-x86_64/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
       - "/home/probe-5028/.mplab/app-finder/apps/cmake/v4.1.2/cmake-4.1.2-linux-x86_64/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
       - "/home/probe-5028/.mplab/app-finder/apps/cmake/v4.1.2/cmake-4.1.2-linux-x86_64/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt:17 (project)"
+      - "CMakeLists.txt:13 (project)"
     message: |
       Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
       Compiler: /opt/microchip/xc8/v3.10/bin/xc8-cc 
@@ -354,7 +354,7 @@ events:
       - "/home/probe-5028/.mplab/app-finder/apps/cmake/v4.1.2/cmake-4.1.2-linux-x86_64/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
       - "/home/probe-5028/.mplab/app-finder/apps/cmake/v4.1.2/cmake-4.1.2-linux-x86_64/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
       - "/home/probe-5028/.mplab/app-finder/apps/cmake/v4.1.2/cmake-4.1.2-linux-x86_64/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt:17 (project)"
+      - "CMakeLists.txt:13 (project)"
     mode: "file"
     variable: "src_in"
     description: "Path to a file."
@@ -392,7 +392,7 @@ events:
       - "/home/probe-5028/.mplab/app-finder/apps/cmake/v4.1.2/cmake-4.1.2-linux-x86_64/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
       - "/home/probe-5028/.mplab/app-finder/apps/cmake/v4.1.2/cmake-4.1.2-linux-x86_64/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
       - "/home/probe-5028/.mplab/app-finder/apps/cmake/v4.1.2/cmake-4.1.2-linux-x86_64/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt:17 (project)"
+      - "CMakeLists.txt:13 (project)"
     message: |
       Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
       Compiler: /opt/microchip/xc8/v3.10/bin/xc8-cc 
@@ -412,7 +412,7 @@ events:
       - "/home/probe-5028/.mplab/app-finder/apps/cmake/v4.1.2/cmake-4.1.2-linux-x86_64/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
       - "/home/probe-5028/.mplab/app-finder/apps/cmake/v4.1.2/cmake-4.1.2-linux-x86_64/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
       - "/home/probe-5028/.mplab/app-finder/apps/cmake/v4.1.2/cmake-4.1.2-linux-x86_64/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt:17 (project)"
+      - "CMakeLists.txt:13 (project)"
     mode: "file"
     variable: "src_in"
     description: "Path to a file."
@@ -450,7 +450,7 @@ events:
       - "/home/probe-5028/.mplab/app-finder/apps/cmake/v4.1.2/cmake-4.1.2-linux-x86_64/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
       - "/home/probe-5028/.mplab/app-finder/apps/cmake/v4.1.2/cmake-4.1.2-linux-x86_64/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
       - "/home/probe-5028/.mplab/app-finder/apps/cmake/v4.1.2/cmake-4.1.2-linux-x86_64/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt:17 (project)"
+      - "CMakeLists.txt:13 (project)"
     message: |
       Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
       Compiler: /opt/microchip/xc8/v3.10/bin/xc8-cc 
@@ -470,7 +470,7 @@ events:
       - "/home/probe-5028/.mplab/app-finder/apps/cmake/v4.1.2/cmake-4.1.2-linux-x86_64/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
       - "/home/probe-5028/.mplab/app-finder/apps/cmake/v4.1.2/cmake-4.1.2-linux-x86_64/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
       - "/home/probe-5028/.mplab/app-finder/apps/cmake/v4.1.2/cmake-4.1.2-linux-x86_64/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt:17 (project)"
+      - "CMakeLists.txt:13 (project)"
     mode: "file"
     variable: "src_in"
     description: "Path to a file."
@@ -508,7 +508,7 @@ events:
       - "/home/probe-5028/.mplab/app-finder/apps/cmake/v4.1.2/cmake-4.1.2-linux-x86_64/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
       - "/home/probe-5028/.mplab/app-finder/apps/cmake/v4.1.2/cmake-4.1.2-linux-x86_64/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
       - "/home/probe-5028/.mplab/app-finder/apps/cmake/v4.1.2/cmake-4.1.2-linux-x86_64/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt:17 (project)"
+      - "CMakeLists.txt:13 (project)"
     message: |
       Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
       Compiler: /opt/microchip/xc8/v3.10/bin/xc8-cc 
@@ -528,7 +528,7 @@ events:
       - "/home/probe-5028/.mplab/app-finder/apps/cmake/v4.1.2/cmake-4.1.2-linux-x86_64/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
       - "/home/probe-5028/.mplab/app-finder/apps/cmake/v4.1.2/cmake-4.1.2-linux-x86_64/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
       - "/home/probe-5028/.mplab/app-finder/apps/cmake/v4.1.2/cmake-4.1.2-linux-x86_64/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt:17 (project)"
+      - "CMakeLists.txt:13 (project)"
     mode: "file"
     variable: "src_in"
     description: "Path to a file."
@@ -566,7 +566,7 @@ events:
       - "/home/probe-5028/.mplab/app-finder/apps/cmake/v4.1.2/cmake-4.1.2-linux-x86_64/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
       - "/home/probe-5028/.mplab/app-finder/apps/cmake/v4.1.2/cmake-4.1.2-linux-x86_64/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
       - "/home/probe-5028/.mplab/app-finder/apps/cmake/v4.1.2/cmake-4.1.2-linux-x86_64/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt:17 (project)"
+      - "CMakeLists.txt:13 (project)"
     message: |
       Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
       Compiler: /opt/microchip/xc8/v3.10/bin/xc8-cc 
@@ -586,7 +586,7 @@ events:
       - "/home/probe-5028/.mplab/app-finder/apps/cmake/v4.1.2/cmake-4.1.2-linux-x86_64/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
       - "/home/probe-5028/.mplab/app-finder/apps/cmake/v4.1.2/cmake-4.1.2-linux-x86_64/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
       - "/home/probe-5028/.mplab/app-finder/apps/cmake/v4.1.2/cmake-4.1.2-linux-x86_64/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt:17 (project)"
+      - "CMakeLists.txt:13 (project)"
     mode: "file"
     variable: "src_in"
     description: "Path to a file."
@@ -624,7 +624,7 @@ events:
       - "/home/probe-5028/.mplab/app-finder/apps/cmake/v4.1.2/cmake-4.1.2-linux-x86_64/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
       - "/home/probe-5028/.mplab/app-finder/apps/cmake/v4.1.2/cmake-4.1.2-linux-x86_64/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
       - "/home/probe-5028/.mplab/app-finder/apps/cmake/v4.1.2/cmake-4.1.2-linux-x86_64/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt:17 (project)"
+      - "CMakeLists.txt:13 (project)"
     message: |
       Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
       Compiler: /opt/microchip/xc8/v3.10/bin/xc8-cc 
@@ -644,7 +644,7 @@ events:
       - "/home/probe-5028/.mplab/app-finder/apps/cmake/v4.1.2/cmake-4.1.2-linux-x86_64/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
       - "/home/probe-5028/.mplab/app-finder/apps/cmake/v4.1.2/cmake-4.1.2-linux-x86_64/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
       - "/home/probe-5028/.mplab/app-finder/apps/cmake/v4.1.2/cmake-4.1.2-linux-x86_64/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt:17 (project)"
+      - "CMakeLists.txt:13 (project)"
     mode: "file"
     variable: "src_in"
     description: "Path to a file."
@@ -682,7 +682,7 @@ events:
       - "/home/probe-5028/.mplab/app-finder/apps/cmake/v4.1.2/cmake-4.1.2-linux-x86_64/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
       - "/home/probe-5028/.mplab/app-finder/apps/cmake/v4.1.2/cmake-4.1.2-linux-x86_64/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
       - "/home/probe-5028/.mplab/app-finder/apps/cmake/v4.1.2/cmake-4.1.2-linux-x86_64/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt:17 (project)"
+      - "CMakeLists.txt:13 (project)"
     message: |
       Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
       Compiler: /opt/microchip/xc8/v3.10/bin/xc8-cc 
@@ -702,7 +702,7 @@ events:
       - "/home/probe-5028/.mplab/app-finder/apps/cmake/v4.1.2/cmake-4.1.2-linux-x86_64/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
       - "/home/probe-5028/.mplab/app-finder/apps/cmake/v4.1.2/cmake-4.1.2-linux-x86_64/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
       - "/home/probe-5028/.mplab/app-finder/apps/cmake/v4.1.2/cmake-4.1.2-linux-x86_64/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt:17 (project)"
+      - "CMakeLists.txt:13 (project)"
     mode: "file"
     variable: "src_in"
     description: "Path to a file."
@@ -740,7 +740,7 @@ events:
       - "/home/probe-5028/.mplab/app-finder/apps/cmake/v4.1.2/cmake-4.1.2-linux-x86_64/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
       - "/home/probe-5028/.mplab/app-finder/apps/cmake/v4.1.2/cmake-4.1.2-linux-x86_64/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
       - "/home/probe-5028/.mplab/app-finder/apps/cmake/v4.1.2/cmake-4.1.2-linux-x86_64/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt:17 (project)"
+      - "CMakeLists.txt:13 (project)"
     message: |
       Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
       Compiler: /opt/microchip/xc8/v3.10/bin/xc8-cc 
@@ -760,7 +760,7 @@ events:
       - "/home/probe-5028/.mplab/app-finder/apps/cmake/v4.1.2/cmake-4.1.2-linux-x86_64/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
       - "/home/probe-5028/.mplab/app-finder/apps/cmake/v4.1.2/cmake-4.1.2-linux-x86_64/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
       - "/home/probe-5028/.mplab/app-finder/apps/cmake/v4.1.2/cmake-4.1.2-linux-x86_64/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt:17 (project)"
+      - "CMakeLists.txt:13 (project)"
     mode: "file"
     variable: "src_in"
     description: "Path to a file."
@@ -798,7 +798,7 @@ events:
       - "/home/probe-5028/.mplab/app-finder/apps/cmake/v4.1.2/cmake-4.1.2-linux-x86_64/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
       - "/home/probe-5028/.mplab/app-finder/apps/cmake/v4.1.2/cmake-4.1.2-linux-x86_64/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
       - "/home/probe-5028/.mplab/app-finder/apps/cmake/v4.1.2/cmake-4.1.2-linux-x86_64/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt:17 (project)"
+      - "CMakeLists.txt:13 (project)"
     message: |
       Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
       Compiler: /opt/microchip/xc8/v3.10/bin/xc8-cc 
@@ -816,7 +816,7 @@ events:
       - "/home/probe-5028/.mplab/app-finder/apps/cmake/v4.1.2/cmake-4.1.2-linux-x86_64/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:1303 (message)"
       - "/home/probe-5028/.mplab/app-finder/apps/cmake/v4.1.2/cmake-4.1.2-linux-x86_64/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:86 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
       - "/home/probe-5028/.mplab/app-finder/apps/cmake/v4.1.2/cmake-4.1.2-linux-x86_64/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt:17 (project)"
+      - "CMakeLists.txt:13 (project)"
     message: |
       Checking whether the C compiler is IAR using "" did not match "IAR .+ Compiler":
       (2042) no target device specified; use the -mcpu option to specify a target device
@@ -826,7 +826,7 @@ events:
       - "/home/probe-5028/.mplab/app-finder/apps/cmake/v4.1.2/cmake-4.1.2-linux-x86_64/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:1303 (message)"
       - "/home/probe-5028/.mplab/app-finder/apps/cmake/v4.1.2/cmake-4.1.2-linux-x86_64/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:86 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
       - "/home/probe-5028/.mplab/app-finder/apps/cmake/v4.1.2/cmake-4.1.2-linux-x86_64/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt:17 (project)"
+      - "CMakeLists.txt:13 (project)"
     message: |
       Checking whether the C compiler is IAR using "" did not match "IAR .+ Compiler":
       (2042) no target device specified; use the -mcpu option to specify a target device
@@ -835,7 +835,7 @@ events:
     backtrace:
       - "/home/probe-5028/.mplab/app-finder/apps/cmake/v4.1.2/cmake-4.1.2-linux-x86_64/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
       - "/home/probe-5028/.mplab/app-finder/apps/cmake/v4.1.2/cmake-4.1.2-linux-x86_64/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
-      - "CMakeLists.txt:17 (project)"
+      - "CMakeLists.txt:13 (project)"
     mode: "program"
     variable: "CMAKE_STRIP"
     description: "Path to a program."
@@ -892,7 +892,7 @@ events:
     backtrace:
       - "/home/probe-5028/.mplab/app-finder/apps/cmake/v4.1.2/cmake-4.1.2-linux-x86_64/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
       - "/home/probe-5028/.mplab/app-finder/apps/cmake/v4.1.2/cmake-4.1.2-linux-x86_64/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
-      - "CMakeLists.txt:17 (project)"
+      - "CMakeLists.txt:13 (project)"
     mode: "program"
     variable: "CMAKE_LINKER"
     description: "Path to a program."
@@ -949,7 +949,7 @@ events:
     backtrace:
       - "/home/probe-5028/.mplab/app-finder/apps/cmake/v4.1.2/cmake-4.1.2-linux-x86_64/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
       - "/home/probe-5028/.mplab/app-finder/apps/cmake/v4.1.2/cmake-4.1.2-linux-x86_64/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
-      - "CMakeLists.txt:17 (project)"
+      - "CMakeLists.txt:13 (project)"
     mode: "program"
     variable: "CMAKE_NM"
     description: "Path to a program."
@@ -1006,7 +1006,7 @@ events:
     backtrace:
       - "/home/probe-5028/.mplab/app-finder/apps/cmake/v4.1.2/cmake-4.1.2-linux-x86_64/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
       - "/home/probe-5028/.mplab/app-finder/apps/cmake/v4.1.2/cmake-4.1.2-linux-x86_64/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
-      - "CMakeLists.txt:17 (project)"
+      - "CMakeLists.txt:13 (project)"
     mode: "program"
     variable: "CMAKE_OBJDUMP"
     description: "Path to a program."
@@ -1063,7 +1063,7 @@ events:
     backtrace:
       - "/home/probe-5028/.mplab/app-finder/apps/cmake/v4.1.2/cmake-4.1.2-linux-x86_64/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
       - "/home/probe-5028/.mplab/app-finder/apps/cmake/v4.1.2/cmake-4.1.2-linux-x86_64/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
-      - "CMakeLists.txt:17 (project)"
+      - "CMakeLists.txt:13 (project)"
     mode: "program"
     variable: "CMAKE_OBJCOPY"
     description: "Path to a program."
@@ -1120,7 +1120,7 @@ events:
     backtrace:
       - "/home/probe-5028/.mplab/app-finder/apps/cmake/v4.1.2/cmake-4.1.2-linux-x86_64/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
       - "/home/probe-5028/.mplab/app-finder/apps/cmake/v4.1.2/cmake-4.1.2-linux-x86_64/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
-      - "CMakeLists.txt:17 (project)"
+      - "CMakeLists.txt:13 (project)"
     mode: "program"
     variable: "CMAKE_READELF"
     description: "Path to a program."
@@ -1177,7 +1177,7 @@ events:
     backtrace:
       - "/home/probe-5028/.mplab/app-finder/apps/cmake/v4.1.2/cmake-4.1.2-linux-x86_64/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
       - "/home/probe-5028/.mplab/app-finder/apps/cmake/v4.1.2/cmake-4.1.2-linux-x86_64/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
-      - "CMakeLists.txt:17 (project)"
+      - "CMakeLists.txt:13 (project)"
     mode: "program"
     variable: "CMAKE_DLLTOOL"
     description: "Path to a program."
@@ -1240,7 +1240,7 @@ events:
     backtrace:
       - "/home/probe-5028/.mplab/app-finder/apps/cmake/v4.1.2/cmake-4.1.2-linux-x86_64/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
       - "/home/probe-5028/.mplab/app-finder/apps/cmake/v4.1.2/cmake-4.1.2-linux-x86_64/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
-      - "CMakeLists.txt:17 (project)"
+      - "CMakeLists.txt:13 (project)"
     mode: "program"
     variable: "CMAKE_ADDR2LINE"
     description: "Path to a program."
@@ -1297,7 +1297,7 @@ events:
     backtrace:
       - "/home/probe-5028/.mplab/app-finder/apps/cmake/v4.1.2/cmake-4.1.2-linux-x86_64/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
       - "/home/probe-5028/.mplab/app-finder/apps/cmake/v4.1.2/cmake-4.1.2-linux-x86_64/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
-      - "CMakeLists.txt:17 (project)"
+      - "CMakeLists.txt:13 (project)"
     mode: "program"
     variable: "CMAKE_TAPI"
     description: "Path to a program."
@@ -1360,7 +1360,7 @@ events:
     backtrace:
       - "/home/probe-5028/.mplab/app-finder/apps/cmake/v4.1.2/cmake-4.1.2-linux-x86_64/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:1303 (message)"
       - "/home/probe-5028/.mplab/app-finder/apps/cmake/v4.1.2/cmake-4.1.2-linux-x86_64/share/cmake-4.1/Modules/CMakeDetermineASMCompiler.cmake:170 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
-      - "CMakeLists.txt:17 (project)"
+      - "CMakeLists.txt:13 (project)"
     message: |
       Checking whether the ASM compiler is GNU using "--version" did not match "(GNU assembler)|(GCC)|(Free Software Foundation)":
       Microchip MPLAB XC8 C Compiler V3.10
@@ -1371,7 +1371,7 @@ events:
     backtrace:
       - "/home/probe-5028/.mplab/app-finder/apps/cmake/v4.1.2/cmake-4.1.2-linux-x86_64/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:1303 (message)"
       - "/home/probe-5028/.mplab/app-finder/apps/cmake/v4.1.2/cmake-4.1.2-linux-x86_64/share/cmake-4.1/Modules/CMakeDetermineASMCompiler.cmake:170 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
-      - "CMakeLists.txt:17 (project)"
+      - "CMakeLists.txt:13 (project)"
     message: |
       Checking whether the ASM compiler is AppleClang using "--version" did not match "(Apple (clang|LLVM) version)":
       Microchip MPLAB XC8 C Compiler V3.10
@@ -1382,7 +1382,7 @@ events:
     backtrace:
       - "/home/probe-5028/.mplab/app-finder/apps/cmake/v4.1.2/cmake-4.1.2-linux-x86_64/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:1303 (message)"
       - "/home/probe-5028/.mplab/app-finder/apps/cmake/v4.1.2/cmake-4.1.2-linux-x86_64/share/cmake-4.1/Modules/CMakeDetermineASMCompiler.cmake:170 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
-      - "CMakeLists.txt:17 (project)"
+      - "CMakeLists.txt:13 (project)"
     message: |
       Checking whether the ASM compiler is Clang using "--version" did not match "(clang version)":
       Microchip MPLAB XC8 C Compiler V3.10
@@ -1393,7 +1393,7 @@ events:
     backtrace:
       - "/home/probe-5028/.mplab/app-finder/apps/cmake/v4.1.2/cmake-4.1.2-linux-x86_64/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:1303 (message)"
       - "/home/probe-5028/.mplab/app-finder/apps/cmake/v4.1.2/cmake-4.1.2-linux-x86_64/share/cmake-4.1/Modules/CMakeDetermineASMCompiler.cmake:170 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
-      - "CMakeLists.txt:17 (project)"
+      - "CMakeLists.txt:13 (project)"
     message: |
       Checking whether the ASM compiler is ARMClang using "--version" did not match "armclang":
       Microchip MPLAB XC8 C Compiler V3.10
@@ -1404,7 +1404,7 @@ events:
     backtrace:
       - "/home/probe-5028/.mplab/app-finder/apps/cmake/v4.1.2/cmake-4.1.2-linux-x86_64/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:1303 (message)"
       - "/home/probe-5028/.mplab/app-finder/apps/cmake/v4.1.2/cmake-4.1.2-linux-x86_64/share/cmake-4.1/Modules/CMakeDetermineASMCompiler.cmake:170 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
-      - "CMakeLists.txt:17 (project)"
+      - "CMakeLists.txt:13 (project)"
     message: |
       Checking whether the ASM compiler is OrangeC using "--version" did not match "occ \\(OrangeC\\) Version":
       Microchip MPLAB XC8 C Compiler V3.10
@@ -1415,7 +1415,7 @@ events:
     backtrace:
       - "/home/probe-5028/.mplab/app-finder/apps/cmake/v4.1.2/cmake-4.1.2-linux-x86_64/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:1303 (message)"
       - "/home/probe-5028/.mplab/app-finder/apps/cmake/v4.1.2/cmake-4.1.2-linux-x86_64/share/cmake-4.1/Modules/CMakeDetermineASMCompiler.cmake:170 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
-      - "CMakeLists.txt:17 (project)"
+      - "CMakeLists.txt:13 (project)"
     message: |
       Checking whether the ASM compiler is HP using "-V" did not match "HP C":
       (2042) no target device specified; use the -mcpu option to specify a target device
@@ -1424,7 +1424,7 @@ events:
     backtrace:
       - "/home/probe-5028/.mplab/app-finder/apps/cmake/v4.1.2/cmake-4.1.2-linux-x86_64/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:1303 (message)"
       - "/home/probe-5028/.mplab/app-finder/apps/cmake/v4.1.2/cmake-4.1.2-linux-x86_64/share/cmake-4.1/Modules/CMakeDetermineASMCompiler.cmake:170 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
-      - "CMakeLists.txt:17 (project)"
+      - "CMakeLists.txt:13 (project)"
     message: |
       Checking whether the ASM compiler is Intel using "--version" did not match "(ICC)":
       Microchip MPLAB XC8 C Compiler V3.10
@@ -1435,7 +1435,7 @@ events:
     backtrace:
       - "/home/probe-5028/.mplab/app-finder/apps/cmake/v4.1.2/cmake-4.1.2-linux-x86_64/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:1303 (message)"
       - "/home/probe-5028/.mplab/app-finder/apps/cmake/v4.1.2/cmake-4.1.2-linux-x86_64/share/cmake-4.1/Modules/CMakeDetermineASMCompiler.cmake:170 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
-      - "CMakeLists.txt:17 (project)"
+      - "CMakeLists.txt:13 (project)"
     message: |
       Checking whether the ASM compiler is IntelLLVM using "--version" did not match "(Intel[^
       ]+oneAPI)":
@@ -1447,7 +1447,7 @@ events:
     backtrace:
       - "/home/probe-5028/.mplab/app-finder/apps/cmake/v4.1.2/cmake-4.1.2-linux-x86_64/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:1303 (message)"
       - "/home/probe-5028/.mplab/app-finder/apps/cmake/v4.1.2/cmake-4.1.2-linux-x86_64/share/cmake-4.1/Modules/CMakeDetermineASMCompiler.cmake:170 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
-      - "CMakeLists.txt:17 (project)"
+      - "CMakeLists.txt:13 (project)"
     message: |
       Checking whether the ASM compiler is SunPro using "-V" did not match "Sun C":
       (2042) no target device specified; use the -mcpu option to specify a target device
@@ -1456,7 +1456,7 @@ events:
     backtrace:
       - "/home/probe-5028/.mplab/app-finder/apps/cmake/v4.1.2/cmake-4.1.2-linux-x86_64/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:1303 (message)"
       - "/home/probe-5028/.mplab/app-finder/apps/cmake/v4.1.2/cmake-4.1.2-linux-x86_64/share/cmake-4.1/Modules/CMakeDetermineASMCompiler.cmake:170 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
-      - "CMakeLists.txt:17 (project)"
+      - "CMakeLists.txt:13 (project)"
     message: |
       Checking whether the ASM compiler is XL using "-qversion" did not match "XL C":
       (2042) no target device specified; use the -mcpu option to specify a target device
@@ -1465,7 +1465,7 @@ events:
     backtrace:
       - "/home/probe-5028/.mplab/app-finder/apps/cmake/v4.1.2/cmake-4.1.2-linux-x86_64/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:1303 (message)"
       - "/home/probe-5028/.mplab/app-finder/apps/cmake/v4.1.2/cmake-4.1.2-linux-x86_64/share/cmake-4.1/Modules/CMakeDetermineASMCompiler.cmake:170 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
-      - "CMakeLists.txt:17 (project)"
+      - "CMakeLists.txt:13 (project)"
     message: |
       Checking whether the ASM compiler is MSVC using "-?" did not match "Microsoft":
       (2042) no target device specified; use the -mcpu option to specify a target device
@@ -1474,7 +1474,7 @@ events:
     backtrace:
       - "/home/probe-5028/.mplab/app-finder/apps/cmake/v4.1.2/cmake-4.1.2-linux-x86_64/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:1303 (message)"
       - "/home/probe-5028/.mplab/app-finder/apps/cmake/v4.1.2/cmake-4.1.2-linux-x86_64/share/cmake-4.1/Modules/CMakeDetermineASMCompiler.cmake:170 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
-      - "CMakeLists.txt:17 (project)"
+      - "CMakeLists.txt:13 (project)"
     message: |
       Checking whether the ASM compiler is TI using "-h" did not match "Texas Instruments":
       (2042) no target device specified; use the -mcpu option to specify a target device
@@ -1483,7 +1483,7 @@ events:
     backtrace:
       - "/home/probe-5028/.mplab/app-finder/apps/cmake/v4.1.2/cmake-4.1.2-linux-x86_64/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:1303 (message)"
       - "/home/probe-5028/.mplab/app-finder/apps/cmake/v4.1.2/cmake-4.1.2-linux-x86_64/share/cmake-4.1/Modules/CMakeDetermineASMCompiler.cmake:170 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
-      - "CMakeLists.txt:17 (project)"
+      - "CMakeLists.txt:13 (project)"
     message: |
       Checking whether the ASM compiler is TIClang using "--version" did not match "(TI (.*) Clang Compiler)":
       Microchip MPLAB XC8 C Compiler V3.10
@@ -1494,7 +1494,7 @@ events:
     backtrace:
       - "/home/probe-5028/.mplab/app-finder/apps/cmake/v4.1.2/cmake-4.1.2-linux-x86_64/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:1303 (message)"
       - "/home/probe-5028/.mplab/app-finder/apps/cmake/v4.1.2/cmake-4.1.2-linux-x86_64/share/cmake-4.1/Modules/CMakeDetermineASMCompiler.cmake:170 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
-      - "CMakeLists.txt:17 (project)"
+      - "CMakeLists.txt:13 (project)"
     message: |
       Checking whether the ASM compiler is IAR using "" did not match "IAR Assembler":
       (2042) no target device specified; use the -mcpu option to specify a target device
@@ -1503,7 +1503,7 @@ events:
     backtrace:
       - "/home/probe-5028/.mplab/app-finder/apps/cmake/v4.1.2/cmake-4.1.2-linux-x86_64/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:1303 (message)"
       - "/home/probe-5028/.mplab/app-finder/apps/cmake/v4.1.2/cmake-4.1.2-linux-x86_64/share/cmake-4.1/Modules/CMakeDetermineASMCompiler.cmake:170 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
-      - "CMakeLists.txt:17 (project)"
+      - "CMakeLists.txt:13 (project)"
     message: |
       Checking whether the ASM compiler is Diab using "-V" did not match "Wind River Systems":
       (2042) no target device specified; use the -mcpu option to specify a target device
@@ -1512,7 +1512,7 @@ events:
     backtrace:
       - "/home/probe-5028/.mplab/app-finder/apps/cmake/v4.1.2/cmake-4.1.2-linux-x86_64/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:1303 (message)"
       - "/home/probe-5028/.mplab/app-finder/apps/cmake/v4.1.2/cmake-4.1.2-linux-x86_64/share/cmake-4.1/Modules/CMakeDetermineASMCompiler.cmake:170 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
-      - "CMakeLists.txt:17 (project)"
+      - "CMakeLists.txt:13 (project)"
     message: |
       Checking whether the ASM compiler is ARMCC using "" did not match "(ARM Compiler)|(ARM Assembler)|(Arm Compiler)":
       (2042) no target device specified; use the -mcpu option to specify a target device
@@ -1521,7 +1521,7 @@ events:
     backtrace:
       - "/home/probe-5028/.mplab/app-finder/apps/cmake/v4.1.2/cmake-4.1.2-linux-x86_64/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:1303 (message)"
       - "/home/probe-5028/.mplab/app-finder/apps/cmake/v4.1.2/cmake-4.1.2-linux-x86_64/share/cmake-4.1/Modules/CMakeDetermineASMCompiler.cmake:170 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
-      - "CMakeLists.txt:17 (project)"
+      - "CMakeLists.txt:13 (project)"
     message: |
       Checking whether the ASM compiler is NASM using "-v" did not match "(NASM version)":
       (2042) no target device specified; use the -mcpu option to specify a target device
@@ -1530,7 +1530,7 @@ events:
     backtrace:
       - "/home/probe-5028/.mplab/app-finder/apps/cmake/v4.1.2/cmake-4.1.2-linux-x86_64/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:1303 (message)"
       - "/home/probe-5028/.mplab/app-finder/apps/cmake/v4.1.2/cmake-4.1.2-linux-x86_64/share/cmake-4.1/Modules/CMakeDetermineASMCompiler.cmake:170 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
-      - "CMakeLists.txt:17 (project)"
+      - "CMakeLists.txt:13 (project)"
     message: |
       Checking whether the ASM compiler is YASM using "--version" did not match "(yasm)":
       Microchip MPLAB XC8 C Compiler V3.10
@@ -1541,7 +1541,7 @@ events:
     backtrace:
       - "/home/probe-5028/.mplab/app-finder/apps/cmake/v4.1.2/cmake-4.1.2-linux-x86_64/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:1303 (message)"
       - "/home/probe-5028/.mplab/app-finder/apps/cmake/v4.1.2/cmake-4.1.2-linux-x86_64/share/cmake-4.1/Modules/CMakeDetermineASMCompiler.cmake:170 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
-      - "CMakeLists.txt:17 (project)"
+      - "CMakeLists.txt:13 (project)"
     message: |
       Checking whether the ASM compiler is ADSP using "-version" did not match "Analog Devices":
       (2042) no target device specified; use the -mcpu option to specify a target device
@@ -1550,7 +1550,7 @@ events:
     backtrace:
       - "/home/probe-5028/.mplab/app-finder/apps/cmake/v4.1.2/cmake-4.1.2-linux-x86_64/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:1303 (message)"
       - "/home/probe-5028/.mplab/app-finder/apps/cmake/v4.1.2/cmake-4.1.2-linux-x86_64/share/cmake-4.1/Modules/CMakeDetermineASMCompiler.cmake:170 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
-      - "CMakeLists.txt:17 (project)"
+      - "CMakeLists.txt:13 (project)"
     message: |
       Checking whether the ASM compiler is QCC using "-V" did not match "gcc_nto":
       (2042) no target device specified; use the -mcpu option to specify a target device
@@ -1559,7 +1559,7 @@ events:
     backtrace:
       - "/home/probe-5028/.mplab/app-finder/apps/cmake/v4.1.2/cmake-4.1.2-linux-x86_64/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:1303 (message)"
       - "/home/probe-5028/.mplab/app-finder/apps/cmake/v4.1.2/cmake-4.1.2-linux-x86_64/share/cmake-4.1/Modules/CMakeDetermineASMCompiler.cmake:170 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
-      - "CMakeLists.txt:17 (project)"
+      - "CMakeLists.txt:13 (project)"
     message: |
       Checking whether the ASM compiler is Tasking using "--version" did not match "TASKING":
       Microchip MPLAB XC8 C Compiler V3.10
@@ -1570,7 +1570,7 @@ events:
     backtrace:
       - "/home/probe-5028/.mplab/app-finder/apps/cmake/v4.1.2/cmake-4.1.2-linux-x86_64/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:1303 (message)"
       - "/home/probe-5028/.mplab/app-finder/apps/cmake/v4.1.2/cmake-4.1.2-linux-x86_64/share/cmake-4.1/Modules/CMakeDetermineASMCompiler.cmake:170 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
-      - "CMakeLists.txt:17 (project)"
+      - "CMakeLists.txt:13 (project)"
     message: |
       Checking whether the ASM compiler is Renesas using "-v" did not match "(RX Family C/C\\+\\+ Compiler)|(RL78 Family Compiler)|(RH850 Family Compiler)":
       (2042) no target device specified; use the -mcpu option to specify a target device
