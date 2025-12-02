@@ -16,6 +16,7 @@ foreach(source_file ${probe_5028_devkit_firmware_default_default_XC8_FILE_TYPE_a
 endforeach()
 
 set(probe_5028_devkit_firmware_default_default_XC8_FILE_TYPE_compile
+    "${CMAKE_CURRENT_SOURCE_DIR}/../../../My_MCC_Config/mcc/eeprom_wrapper.c"
     "${CMAKE_CURRENT_SOURCE_DIR}/../../../My_MCC_Config/mcc/main.c"
     "${CMAKE_CURRENT_SOURCE_DIR}/../../../My_MCC_Config/mcc/mcc_generated_files/adc/src/adc0.c"
     "${CMAKE_CURRENT_SOURCE_DIR}/../../../My_MCC_Config/mcc/mcc_generated_files/dac/src/dac0.c"

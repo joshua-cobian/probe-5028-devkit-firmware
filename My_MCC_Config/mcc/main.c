@@ -42,6 +42,7 @@
 #include "mcc_generated_files/timer/tca0.h"
 #include "mcc_generated_files/timer/tcb0.h"
 #include <avr/io.h>
+#include "eeprom_wrapper.h"
 
 /*
     Main application
@@ -192,6 +193,14 @@ void EEPROM_Read_bytes(eeprom_address_t starting_address,
   }
 }
 
+
+
+
+
+
+
+
+
 /**
  * @brief
  *
@@ -213,13 +222,12 @@ int main(void) {
   ADC0_ConversionDoneCallbackRegister(myADC0_ConversionDoneCallback);
 
   eeprom_data_t write_data[4] = {0xDE, 0xAD, 0xBE, 0xEF};
-  // EEPROM_Write_Bytes(242, write_data, 4);
+  testing_eeprom_write_bytes(200, write_data, 4);
 
   eeprom_data_t buff[256];
-  int buff_size;
-  EEPROM_Read_bytes(200, 256, buff, &buff_size);
+  testing_eeprom_read_bytes(200, 56, buff);
 
-  for (int i = 0; i < buff_size; i++) {
+  for (int i = 0; i < 56; i++) {
     printf("eeprom data at %d is %x\n\r", i + 200, buff[i]);
   }
 
