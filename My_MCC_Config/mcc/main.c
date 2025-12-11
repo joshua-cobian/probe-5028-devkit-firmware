@@ -73,6 +73,7 @@ void my_IO_PF6_SetInterruptHandler(void) { RSTCTRL_SoftwareReset(); }
 
 // Interrupt Handler for result ready...
 static void myADC0_ConversionDoneCallback(void) {
+  printf("Inside adc_ready interrupt\n\r");
   uint8_t channel =
       ADC0.MUXPOS - 0x14; // 0x14 is current selected port number (AIN20)
   readings[channel].counts = ADC0_ConversionResultGet();
@@ -222,7 +223,7 @@ int main(void) {
   ADC0_ConversionDoneCallbackRegister(myADC0_ConversionDoneCallback);
 
   eeprom_data_t write_data[4] = {0xDE, 0xAD, 0xBE, 0xEF};
-  testing_eeprom_write_bytes(200, write_data, 4);
+  //testing_eeprom_write_bytes(200, write_data, 4);
 
   eeprom_data_t buff[256];
   testing_eeprom_read_bytes(200, 56, buff);

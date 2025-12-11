@@ -1,1 +1,1 @@
-{"programoptions.preserveeeprom":"true","project":"probe-5028-devkit-firmware","configuration":"default"}
+{"programoptions.preserveeeprom":"true","programoptions.preserveeeprom.ranges":"0-ff","project":"probe-5028-devkit-firmware","configuration":"default"}
