@@ -40,7 +40,7 @@
 void CLOCK_Initialize(void)
 {
     ccp_write_io((void*)&(CLKCTRL.MCLKCTRLA),(1 << CLKCTRL_CLKOUT_bp)   // CLKOUT enabled
-            | CLKCTRL_CLKSEL_OSCHF_gc   // CLKSEL Internal high-frequency oscillator
+            | CLKCTRL_CLKSEL_OSC32K_gc   // CLKSEL Internal 32.768 kHz oscillator
             );
     ccp_write_io((void*)&(CLKCTRL.MCLKCTRLB),CLKCTRL_PDIV_2X_gc   // PDIV 2X
             | (0 << CLKCTRL_PEN_bp)   // PEN disabled
@@ -80,7 +80,7 @@ void CLOCK_Initialize(void)
             );
 
     // System clock stability check by polling the status register.
-    while(!(CLKCTRL.MCLKSTATUS & CLKCTRL_OSCHFS_bm))
+    while(!(CLKCTRL.MCLKSTATUS & CLKCTRL_OSC32KS_bm))
     {
     }
 

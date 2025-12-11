@@ -132,8 +132,8 @@ void USART0_Initialize(void)
 {
     // Set the USART0 module to the options selected in the user interface.
 
-    //BAUD 1666; 
-    USART0.BAUD = (uint16_t)USART0_BAUD_RATE(9600UL);
+    //BAUD 436; 
+    USART0.BAUD = (uint16_t)USART0_BAUD_RATE(300UL);
 	
     // ABEIE disabled; DREIE disabled; LBME disabled; RS485 DISABLE; RXCIE disabled; RXSIE disabled; TXCIE disabled; 
     USART0.CTRLA = 0x0;

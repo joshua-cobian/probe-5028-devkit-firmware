@@ -56,7 +56,7 @@
  * @brief Defines the timer prescaled clock frequency in hertz.
  */
  /* cppcheck-suppress misra-c2012-2.5 */  
-#define TCA0_CLOCK_FREQ (3906UL)
+#define TCA0_CLOCK_FREQ (4096UL)
 
 /**
  * @ingroup tca0_normal

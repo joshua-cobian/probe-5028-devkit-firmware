@@ -38,7 +38,7 @@
 #define CLOCK_H
 
 #ifndef F_CPU
-#define F_CPU 4000000UL
+#define F_CPU 32768UL
 #endif
 
 #include "ccp.h"

@@ -56,7 +56,7 @@
 #endif
 
 /* Normal Mode, Baud register value */
-#define USART0_BAUD_RATE(BAUD_RATE) ((4000000UL * 64UL / (16UL * (BAUD_RATE))) + 0.5)
+#define USART0_BAUD_RATE(BAUD_RATE) ((32768UL * 64UL / (16UL * (BAUD_RATE))) + 0.5)
 
 #define UART0_interface UART0
 
